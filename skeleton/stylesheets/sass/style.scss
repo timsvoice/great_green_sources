@@ -112,24 +112,26 @@ $secondary_color:blue;
 $tertiary_color:green;
 $primary_pattern:url('../../images/background.png') repeat-y;
 
-#primary_color{
-  background-color:$primary_color;
-  height:50px;
+#primary_color, #secondary_color, #tertiary_color, #primary_pattern{
+  height:100px;
+  margin:25px 0px 0px 0px;
 }
+
+#primary_color {
+  background-color:$primary_color;
+}
+
 
 #secondary_color{
   background-color:$secondary_color;
-  height:50px;
 }
 
 #tertiary_color{
   background-color:$tertiary_color;
-  height:50px;
 }
 
 #primary_pattern {
   background:$primary_pattern;
-  height:50px;
 }
 
 

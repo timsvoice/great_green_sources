@@ -89,21 +89,21 @@ table {
 * Color Scheme and Patterns
 *
 */
+#primary_color, #secondary_color, #tertiary_color, #primary_pattern {
+  height: 100px;
+  margin: 25px 0px 0px 0px; }
+
 #primary_color {
-  background-color: red;
-  height: 50px; }
+  background-color: red; }
 
 #secondary_color {
-  background-color: blue;
-  height: 50px; }
+  background-color: blue; }
 
 #tertiary_color {
-  background-color: green;
-  height: 50px; }
+  background-color: green; }
 
 #primary_pattern {
-  background: url("../../images/background.png") repeat-y;
-  height: 50px; }
+  background: url("../../images/background.png") repeat-y; }
 
 /*
 *
