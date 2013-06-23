@@ -1,6 +1,6 @@
 # Style Guide Template
 
-Basic visual guide for prototyping style.
+Basic visual guide for quick visual development. Powered by scss.
 Mashup of the Golden Grid System and the Skeleton Framework to achieve grid system
 
 ## Credits
