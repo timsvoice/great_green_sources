@@ -131,8 +131,8 @@ header h1 {
 *
 */
 
-#typography {
-
+body {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -146,14 +146,14 @@ header h1 {
 $primary_color:rgba(0,102,51, 1);
 $secondary_color:rgba(186,208,134, 1);
 $tertiary_color:rgba(89,47,32, 1);
-$body_pattern:url('../../images/background.png') repeat;
+$body_pattern:url('../../images/textured_paper.png') repeat;
 $body_color:green;
-$container_pattern:#fff;
+$container_pattern:rgba(0,102,51, 0.3);
 $padding:20px;
 
 /* Choose $body_pattern or $body_color*/
 html {
-  background:$primary_color;
+  background:$body_pattern;
 }
 
 body .container {
