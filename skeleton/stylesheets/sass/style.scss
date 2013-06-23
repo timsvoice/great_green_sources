@@ -103,18 +103,69 @@ table {
 
 /*
 *
+* Bradning
+*
+*/
+
+@mixin branding ($branding_width, $branding_height) {
+    background:url('../../images/branding.png') repeat;
+    background-size:cover;
+    width:$branding_width*0.5; 
+    height:$branding_height*0.5;
+    float:right;
+    display:inline-block;
+}
+
+#branding {
+  @include branding (282px, 304px)
+}
+
+header h1 {
+  display:inline-block;
+  float:left;
+}
+
+/*
+*
+* Typography
+*
+*/
+
+#typography {
+
+}
+
+
+
+/*
+*
 * Color Scheme and Patterns
 *
 */
 
-$primary_color:red;
-$secondary_color:blue;
-$tertiary_color:green;
-$primary_pattern:url('../../images/background.png') repeat-y;
+$primary_color:rgba(0,102,51, 1);
+$secondary_color:rgba(186,208,134, 1);
+$tertiary_color:rgba(89,47,32, 1);
+$body_pattern:url('../../images/background.png') repeat;
+$body_color:green;
+$container_pattern:#fff;
+$padding:20px;
+
+/* Choose $body_pattern or $body_color*/
+html {
+  background:$primary_color;
+}
+
+body .container {
+  overflow:hidden;
+  background-color:$container_pattern;
+  margin:50px auto;
+  padding:$padding*2;
+}
 
 #primary_color, #secondary_color, #tertiary_color, #primary_pattern{
   height:100px;
-  margin:25px 0px 0px 0px;
+  margin:5px 0px 0px 0px;
 }
 
 #primary_color {
@@ -130,10 +181,69 @@ $primary_pattern:url('../../images/background.png') repeat-y;
   background-color:$tertiary_color;
 }
 
-#primary_pattern {
-  background:$primary_pattern;
+
+/*
+*
+* Elements
+*
+*/
+
+$icon_sheet:url('../../images/icon_sheet.png');
+@mixin button ($buttoncolor) {
+  display:block;
+  float:left;
+  padding:0 7px;
+  background-color:$buttoncolor;
+  border:1px solid #dedede;
+  line-height:140%;
+  text-decoration:none;
+  cursor:pointer;
+}
+$buttoncolor_primary:blue;
+$buttoncolor_secondary:gray;
+$aspect_ratio:0.8;
+
+@mixin mood_image ($mood_image) {
+    background:$mood_image;
+    background-size:cover;
+    width:300px;
+    height:300px*$aspect_ratio;
+  }
+
+$mood_image1:url('../../images/mood_image1.jpg');
+$mood_image2:url('../../images/mood_image2.jpg');
+$mood_image3:url('../../images/mood_image3.jpg');
+
+#elements {
+  display:inline-block;
+  float:left; 
 }
 
+#icon_sheet {
+  background:$icon_sheet;
+  height:60px;
+  width:195px;
+}
+
+button {
+ @include button($buttoncolor_secondary); 
+}
+
+button:hover{
+ @include button($buttoncolor_primary); 
+}
+
+#mood_image1 {
+   @include mood_image ($mood_image1);
+}
+
+#mood_image2 {
+  @include mood_image ($mood_image2);
+}
+
+#mood_image3 {
+  @include mood_image ($mood_image3);
+}
 
 
 /*

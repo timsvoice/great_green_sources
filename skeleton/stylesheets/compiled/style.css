@@ -86,24 +86,105 @@ table {
 
 /*
 *
+* Bradning
+*
+*/
+#branding {
+  background: url("../../images/branding.png") repeat;
+  background-size: cover;
+  width: 141px;
+  height: 152px;
+  float: right;
+  display: inline-block; }
+
+header h1 {
+  display: inline-block;
+  float: left; }
+
+/*
+*
+* Typography
+*
+*/
+/*
+*
 * Color Scheme and Patterns
 *
 */
+/* Choose $body_pattern or $body_color*/
+html {
+  background: #006633; }
+
+body .container {
+  overflow: hidden;
+  background-color: white;
+  margin: 50px auto;
+  padding: 40px; }
+
 #primary_color, #secondary_color, #tertiary_color, #primary_pattern {
   height: 100px;
-  margin: 25px 0px 0px 0px; }
+  margin: 5px 0px 0px 0px; }
 
 #primary_color {
-  background-color: red; }
+  background-color: #006633; }
 
 #secondary_color {
-  background-color: blue; }
+  background-color: #bad086; }
 
 #tertiary_color {
-  background-color: green; }
+  background-color: #592f20; }
 
-#primary_pattern {
-  background: url("../../images/background.png") repeat-y; }
+/*
+*
+* Elements
+*
+*/
+#elements {
+  display: inline-block;
+  float: left; }
+
+#icon_sheet {
+  background: url("../../images/icon_sheet.png");
+  height: 60px;
+  width: 195px; }
+
+button {
+  display: block;
+  float: left;
+  padding: 0 7px;
+  background-color: gray;
+  border: 1px solid #dedede;
+  line-height: 140%;
+  text-decoration: none;
+  cursor: pointer; }
+
+button:hover {
+  display: block;
+  float: left;
+  padding: 0 7px;
+  background-color: blue;
+  border: 1px solid #dedede;
+  line-height: 140%;
+  text-decoration: none;
+  cursor: pointer; }
+
+#mood_image1 {
+  background: url("../../images/mood_image1.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 240px; }
+
+#mood_image2 {
+  background: url("../../images/mood_image2.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 240px; }
+
+#mood_image3 {
+  background: url("../../images/mood_image3.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 240px; }
 
 /*
 *
