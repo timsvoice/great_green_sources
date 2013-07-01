@@ -1,0 +1,36 @@
+/*
+*
+* Color Scheme and Patterns
+*
+*/
+
+@import "variables_mixins";
+
+/* Choose $body_pattern or $body_color*/
+html {
+  background:$body_pattern;
+}
+
+body .container {
+  overflow:hidden;
+  background-color:$container_pattern;
+  margin:50px auto;
+  padding:$padding*2;
+}
+
+#primary_color, #secondary_color, #tertiary_color, #primary_pattern{
+  height:100px;
+  margin:5px 0px 0px 0px;
+}
+
+#primary_color {
+  background-color:$primary_color;
+}
+
+#secondary_color{
+  background-color:$secondary_color;
+}
+
+#tertiary_color{
+  background-color:$tertiary_color;
+}

@@ -1,0 +1,16 @@
+/*
+*
+* Branding
+*
+*/
+
+@import "variables_mixins";
+
+#branding {
+  @include branding (282px, 304px)
+}
+
+header h1 {
+  display:inline-block;
+  float:left;
+}

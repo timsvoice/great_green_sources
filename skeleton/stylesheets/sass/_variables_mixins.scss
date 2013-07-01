@@ -1,0 +1,52 @@
+//Color//
+
+$primary_color:rgba(0,102,51, 1);
+$secondary_color:rgba(186,208,134, 1);
+$tertiary_color:rgba(89,47,32, 1);
+$body_pattern:url('../../images/textured_paper.png') repeat;
+$body_color:green;
+$container_pattern:rgba(0,102,51, 0.3);
+$padding:20px;
+$icon_color:white;
+
+//Typography//
+
+//Branding//
+
+@mixin branding ($branding_width, $branding_height) {
+  background:url('../../images/branding.png') repeat;
+  background-size:cover;
+  width:$branding_width*0.5; 
+  height:$branding_height*0.5;
+  float:right;
+  display:inline-block;
+}
+
+//Elements//
+
+$buttoncolor_primary:$primary_color;
+$buttoncolor_secondary:gray;
+$aspect_ratio:0.8;
+
+@mixin button ($buttoncolor, $border) {
+  display:block;
+  float:left;
+  padding:0 7px;
+  background-color:$buttoncolor;
+  border:$border solid $primary_color;
+  line-height:140%;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+@mixin mood_image ($mood_image) {
+    background:$mood_image;
+    background-size:cover;
+    width:300px;
+    height:300px*$aspect_ratio;
+  }
+  
+//Images//
+$mood_image1:url('../../images/mood_image1.jpg');
+$mood_image2:url('../../images/mood_image2.jpg');
+$mood_image3:url('../../images/mood_image3.jpg');

@@ -1,0 +1,34 @@
+/*
+*
+* Elements
+*
+*/
+
+@import "variables_mixins";
+
+#elements {
+  display:inline-block;
+  float:left; 
+}
+
+#icon_sheet {
+  height:60px;
+  width:195px;
+}
+
+button {
+  @include button($primary_color, 2px);
+  padding-top:8px; 
+}
+
+#mood_image1 {
+   @include mood_image ($mood_image1);
+}
+
+#mood_image2 {
+  @include mood_image ($mood_image2);
+}
+
+#mood_image3 {
+  @include mood_image ($mood_image3);
+}
