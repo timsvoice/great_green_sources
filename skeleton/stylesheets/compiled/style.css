@@ -89,7 +89,6 @@ table {
   background-size: cover;
   width: 141px;
   height: 152px;
-  float: right;
   display: inline-block; }
 
 header h1 {
@@ -110,7 +109,7 @@ header h1 {
   content: attr(data-icon);
   speak: none;
   font-size: 32px;
-  color: white; }
+  color: #006633; }
 
 body {
   font-family: 'Ubuntu', sans-serif; }
@@ -125,11 +124,11 @@ a {
 */
 /* Choose $body_pattern or $body_color*/
 html {
-  background: url("../../images/textured_paper.png") repeat; }
+  background: none; }
 
 body .container {
   overflow: hidden;
-  background-color: rgba(0, 102, 51, 0.3);
+  background-color: white;
   margin: 50px auto;
   padding: 40px; }
 
@@ -169,6 +168,20 @@ button {
   text-decoration: none;
   cursor: pointer;
   padding-top: 8px; }
+
+input[type="text"] {
+  border: 2px solid #006633;
+  padding: 5px; }
+
+input[type="submit"] {
+  border: 2px solid #006633;
+  background-color: white;
+  padding: 5px; }
+
+textarea {
+  border: 2px solid #006633;
+  background-color: white;
+  padding: 5px; }
 
 #mood_image1 {
   background: url("../../images/mood_image1.jpg");
@@ -347,6 +360,16 @@ h3 {
     /* Zoom baseline grid to 18/16 = 1.125 */
     font-size: 1.125em;
     max-width: 160 em; } }
+/*
+ * Structure
+ * 
+ */
+article {
+  margin-top: 50px; }
+
+header {
+  text-align: center; }
+
 /*
 *
 *  Simple fluid media

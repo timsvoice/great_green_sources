@@ -3,11 +3,11 @@
 $primary_color:rgba(0,102,51, 1);
 $secondary_color:rgba(186,208,134, 1);
 $tertiary_color:rgba(89,47,32, 1);
-$body_pattern:url('../../images/textured_paper.png') repeat;
+$body_pattern:none;
 $body_color:green;
-$container_pattern:rgba(0,102,51, 0.3);
+$container_pattern:rgba(255,255,255, 1);
 $padding:20px;
-$icon_color:white;
+$icon_color:$primary_color;
 
 //Typography//
 
@@ -18,7 +18,6 @@ $icon_color:white;
   background-size:cover;
   width:$branding_width*0.5; 
   height:$branding_height*0.5;
-  float:right;
   display:inline-block;
 }
 
@@ -27,6 +26,23 @@ $icon_color:white;
 $buttoncolor_primary:$primary_color;
 $buttoncolor_secondary:gray;
 $aspect_ratio:0.8;
+
+@mixin textField ($field_border_color, $field_border) {
+  border:$field_border solid $field_border_color;
+  padding:5px;
+}
+
+@mixin submit ($submit_color, $submit_border_color, $submit_border) {
+  border:$submit_border solid $submit_border_color;
+  background-color:$submit_color;
+  padding:5px;
+}
+
+@mixin textarea ($textarea_color, $textarea_border_color, $textarea_border) {
+  border:$textarea_border solid $textarea_border_color;
+  background-color:$textarea_color;
+  padding:5px;
+}
 
 @mixin button ($buttoncolor, $border) {
   display:block;

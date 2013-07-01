@@ -7,6 +7,20 @@
 @import "ggs_baseline";
 @import "variables_mixins";
 
+
+/*
+ * Structure
+ * 
+ */
+
+article {
+  margin-top:50px;
+}
+
+header {
+  text-align:center;
+}
+
 /*
 *
 *  Simple fluid media

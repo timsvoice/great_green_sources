@@ -21,6 +21,18 @@ button {
   padding-top:8px; 
 }
 
+input[type="text"] {
+  @include textField ($primary_color,2px)
+}
+
+input[type="submit"] {
+  @include submit (white,$primary_color,2px)
+}
+
+textarea {
+  @include textarea (white,$primary_color,2px)
+}
+
 #mood_image1 {
    @include mood_image ($mood_image1);
 }
