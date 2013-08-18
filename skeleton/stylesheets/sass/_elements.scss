@@ -16,21 +16,41 @@
   width:195px;
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?') format('eot'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype');
+}
+
+[data-icon]:before {
+  font-family: icomoon; 
+  content: attr(data-icon);
+  speak: none;
+  font-size:29px;
+  color:$icon_color;
+  vertical-align: middle; 
+}
+
 button {
   @include button($primary_color, 2px);
-  padding-top:8px; 
+  padding:2px;
+}
+
+#search button {
+  @include button($primary_color, 2px);
+  padding:2px;
 }
 
 input[type="text"] {
-  @include textField ($primary_color,2px)
+  @include textField ($primary_color,2px);
+  float:left;
 }
 
 input[type="submit"] {
-  @include submit (white,$primary_color,2px)
+  @include submit (white,$primary_color,2px);
 }
 
 textarea {
-  @include textarea (white,$primary_color,2px)
+  @include textarea (white,$primary_color,2px);
 }
 
 #mood_image1 {

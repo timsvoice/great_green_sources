@@ -7,7 +7,7 @@ $body_pattern:none;
 $body_color:green;
 $container_pattern:rgba(255,255,255, 1);
 $padding:20px;
-$icon_color:$primary_color;
+$icon_color:white;
 
 //Typography//
 
@@ -56,13 +56,14 @@ $aspect_ratio:0.8;
 }
 
 @mixin mood_image ($mood_image) {
-    background:$mood_image;
-    background-size:cover;
-    width:300px;
-    height:300px*$aspect_ratio;
-  }
+  background:$mood_image;
+  background-size:cover;
+  width:300px;
+  height:300px*$aspect_ratio;
+}
   
 //Images//
+
 $mood_image1:url('../../images/mood_image1.jpg');
 $mood_image2:url('../../images/mood_image2.jpg');
 $mood_image3:url('../../images/mood_image3.jpg');
