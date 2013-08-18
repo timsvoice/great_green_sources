@@ -18,8 +18,31 @@ article {
 }
 
 header {
-  text-align:center;
+
 }
+
+section {
+  margin:25px 0px 0px 0px;
+}
+
+#colors {
+  float:left;
+  display:inline-block;
+}
+
+#font_weights_styles {
+  float:left;
+  display:inline-block;
+}
+
+#headers {
+  display:inline-block;
+}
+
+#body {
+  clear:both;
+}
+
 
 /*
 *
@@ -35,9 +58,29 @@ figure img, figure object, figure embed, figure video {
   display: block;
 }
 img {
+  max-width:100%;
+  height:auto;
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
 
 
+/*
+ * Content
+ * 
+ */
 
+#colors {
+  float:left;
+  display:inline-block;
+}
+
+/*
+ * Layout
+ * 
+ */
+
+@include headblock_three;
+@include headblock_two;
+@include headblock_one;
+@include bodyblock_two;

@@ -7,11 +7,11 @@
 @import "variables_mixins";
 
 /* Choose $body_pattern or $body_color*/
-html {
+body {
   background:$body_pattern;
 }
 
-body .container {
+body.container {
   overflow:hidden;
   background-color:$container_pattern;
   margin:50px auto;
@@ -23,14 +23,27 @@ body .container {
   margin:5px 0px 0px 0px;
 }
 
-#primary_color {
-  background-color:$primary_color;
-}
-
-#secondary_color{
-  background-color:$secondary_color;
-}
-
-#tertiary_color{
-  background-color:$tertiary_color;
+#color_block {
+  height:744px;
+    #colorA {
+      height:460px;
+      background-color:$colorA;
+    }
+    #colorB {
+      height:284px;
+       background-color:$colorB;
+    }
+    #colorCD {
+      height:284px;  
+    }
+      #colorC {
+        height:176px;
+        width:176px;
+        background-color:$colorC;
+      }
+      #colorD {
+        height:108px;
+        width:176px;
+        background-color:$colorD;
+      }
 }

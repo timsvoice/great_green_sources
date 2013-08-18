@@ -52,9 +52,9 @@ h2, h1 {
 }
 
 @mixin massive {
-  /* 68px / 72px */
-  font-size: #{68 / $em}em;
-  line-height: ($line*3) / 68 * 1em;
+  /* 73px */
+  font-size: #{73 / $em}em;
+  line-height: ($line*3) / 73 * 1em;
 }
 
 @mixin gigantic {

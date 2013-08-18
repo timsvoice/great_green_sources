@@ -6,11 +6,14 @@
 
 @import "variables_mixins";
 
+img#branding {
+  @include branding (592px, 60px);
+}
+
 #branding {
-  @include branding (282px, 304px)
+  
 }
 
 header h1 {
-  display:inline-block;
-  float:left;
+
 }
