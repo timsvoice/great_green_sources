@@ -260,28 +260,28 @@ h3 {
     font-size: 1.125em;
     max-width: 160 em; } }
 @font-face {
-  font-family: "Executive_Regular";
-  src: url(../fonts/Executive/executive_regular.eot);
+  font-family: "OpenSans_Regular";
+  src: url(../fonts/OpenSans/OpenSans-regular.eot);
   /* IE */
-  src: url("Executive"), url(../fonts/Executive/executive_regular.ttf) format("truetype");
+  src: url("OpenSans"), url(../fonts/OpenSans/OpenSans-regular.ttf) format("truetype");
   /* non-IE */ }
 
 @font-face {
-  font-family: "Executive_Bold";
-  src: url(../fonts/Executive/executive_bold.eot);
+  font-family: "OpenSans_Light";
+  src: url(../fonts/OpenSans/OpenSans-light.eot);
   /* IE */
-  src: url("Executive"), url(../fonts/Executive/executive_bold.ttf) format("truetype");
+  src: url("OpenSans"), url(../fonts/OpenSans/OpenSans-light.ttf) format("truetype");
   /* non-IE */ }
 
 @font-face {
-  font-family: "Executive_Thin";
-  src: url(../fonts/Executive/executive_thin.eot);
+  font-family: "OpenSans_Bold";
+  src: url(../fonts/OpenSans/OpenSans-bold.eot);
   /* IE */
-  src: url("Executive"), url(../fonts/Executive/executive_thin.ttf) format("truetype");
+  src: url("OpenSans"), url(../fonts/OpenSans/OpenSans-bold.ttf) format("truetype");
   /* non-IE */ }
 
 * {
-  font-family: 'Executive', sans-serif; }
+  font-family: 'OpenSans', sans-serif; }
 
 h1, h2 {
   text-transform: capitalize;
@@ -291,7 +291,7 @@ h1#branding {
   /* 73px */
   font-size: 4.5625em;
   line-height: 0.9863em;
-  font-family: 'Executive', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   border-bottom: 1px solid black;
@@ -314,7 +314,7 @@ body p {
 
 a {
   text-decoration: none;
-  color: #c42c25; }
+  color: black; }
 
 ul#menu {
   display: inline-block; }
@@ -328,14 +328,13 @@ p#login_intro {
   margin: 50px 0px 0px 0px; }
 
 .light {
-  font-weight: 200; }
+  font-family: 'OpenSans-light', sans-serif; }
 
 .regular {
-  font-weight: 400; }
+  font-family: 'OpenSans-regular', sans-serif; }
 
 .bold {
-  font-weight: 800;
-  font-style: bold; }
+  font-family: 'OpenSans-bold', sans-serif; }
 
 .italic {
   font-weight: 400;
@@ -404,7 +403,7 @@ hr {
 
 /* Choose $body_pattern or $body_color*/
 body {
-  background: url("../../images/background.png") repeat; }
+  background: none; }
 
 body.container {
   overflow: hidden;
@@ -720,6 +719,9 @@ hr {
  */
 article {
   margin-top: 50px; }
+
+header#project_name {
+  margin: none; }
 
 section {
   margin: 25px 0px 0px 0px; }

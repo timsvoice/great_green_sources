@@ -1,0 +1,655 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Open",
+				"OpenSans-light"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"color",
+				"colorA"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"se",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "skeleton/index.html",
+			"settings":
+			{
+				"buffer_size": 17545,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "skeleton/stylesheets/sass/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 2506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Great Green Sources</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    \n   <header>\n        <a href=\"index.html\"><img src=\"/assets/images/branding.png\" id=\"branding\"></a>\n        \n        <nav>\n            <ul>\n              <li><a href=\"products.html\">plants</a></li>\n              <li><a href=\"vendors.html\">vendors</a></li>\n              <li><a href=\"services.html\">services</a></li>\n              <li><a href=\"about.html\">about</a></li>\n            </ul> \n        </nav>  \n      \n        <article>id=\"header_contact\">\n                <a href=\"mailto:krisernst@greatgreensources.com\">Email Kris</a>\n                <a href=\"tel:+13174562564\">317-456-2564</a>\n        </article><!--header_contact-->\n    </header>\n  	\n    <section id=\"finder\">\n    	<header><h1>what can we help you find?</h1></header>\n        <article>\n        <header><h2>vendors</h2></header>\n        	<select name=\"vendors\">\n              <option value=\"volvo\">Volvo</option>\n    		  <option value=\"saab\">Saab</option>\n    		  <option value=\"mercedes\">Mercedes</option>\n    		  <option value=\"audi\">Audi</option>\n    		</select>\n        </article>\n\n        <article>\n        <header><h2>plants</h2></header>\n    		<select name=\"plants\">\n             <option value=\"volvo\">Volvo</option>\n    		  <option value=\"saab\">Saab</option>\n    		  <option value=\"mercedes\">Mercedes</option>\n    		  <option value=\"audi\">Audi</option>\n    		</select>\n        </article>\n\n        <article>\n        <header><h2>services</h2></header>\n    		<select name=\"services\">\n              <option value=\"volvo\">Volvo</option>\n    		  <option value=\"saab\">Saab</option>\n    		  <option value=\"mercedes\">Mercedes</option>\n    		  <option value=\"audi\">Audi</option>\n          </article>\n		</select>\n\n		<form>\n            <input type=\"search\" name=\"search\" placeholder=\"search\">\n            <button type=\"submit\">search</button>\n        </form>\n		<form action=\"#\" id=\"newsletter_signup\">\n			<input type=\"email\" name=\"newsletter_email\" placeholder=\"sign up for news\">\n			<button type=\"submit\">subscribe</button>\n		</form><!--newsletter_signup-->\n    \n    </section><!--finder-->\n\n    <section id=\"main_info\">\n    	<article id=\"main_about\">\n    		<header><h2>about</h2></header>	\n        	<p>\n                Great Green Sources is a full service wholesale plant distributor delivering quality products to nurseries accross the United States. The cornerstone of Great Green Sources is a genuine and lasting relationship with all our customers and our select list of plant vendors.\n            </p>\n    	</article>\n\n		<article id=\"recommendations\"> \n    		<header><h2>what people are saying</h2></header>\n    		<blockquote>\n                searchOlecatius. Pa accatetus eveligendunt unti velitib ustrum, cus, solorernatur aut audipsae ne vendaepudit, autatus sinvel ipsametur resecatur?\n            </blockquote>\n    		<blockquote>\n                searchOlecatius. Pa accatetus eveligendunt unti velitib ustrum, cus, solorernatur aut audipsae ne vendaepudit, autatus sinvel ipsametur resecatur?\n            </blockquote>\n    	</article><!--recommendations-->\n\n    </section><!--info-->\n\n    <footer>\n        \n        <article id=\"about_info\">\n            <header>\n                <h2>about us</h2>\n            </header>\n            <nav>\n            <ul>\n                <p>\n                    Great Green Sources a wholesale distributor for trees, shrubs, perennials, annuals, liners, pots, garden and greenhouse supplies.\n                </p>\n                <li><a href=\"#\">contact us today</a></li>\n            </ul>\n            </nav>\n        </article><!--about_info-->\n        \n        <article id=\"about_products\">\n            <header>\n                <h2>our products</h2>\n            </header>\n            <nav>\n            <ul>\n                <li><a href=\"vendors.html\">vendors</a></li>\n                <li><a href=\"products.html\">plants</a></li>\n                <li><a href=\"services.html\">services</a></li>\n            </ul>\n            </nav>\n        </article><!--about_products-->\n\n    </footer>\n\n  </body>\n</html>",
+			"file": "index.html",
+			"file_size": 4165,
+			"file_write_time": 1379602475000000,
+			"settings":
+			{
+				"buffer_size": 4217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "skeleton/stylesheets/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 922,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "skeleton/stylesheets/sass/_variables_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 3532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "skeleton/stylesheets/sass/_ggs_baseline.scss",
+			"settings":
+			{
+				"buffer_size": 4561,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Choose Browser.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sass",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn",
+				"Set Syntax: Groovy"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_ggs_baseline.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_elements.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_resets.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaTablet.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaSmall.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaPortrait.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaMobile.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaLandscape.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_branding.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_color_scheme.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/layout.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/base.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/grid.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/mediaMobile.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/mediaPortrait.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/mediaSmall.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_variables_mixins.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/great_green_sources.sublime-workspace",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/playbook.mdown",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/vendors.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/contact_form.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/about.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/services.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/products.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/_variables_mixins.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/index.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/_elements.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/compiled/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/_page-layout.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/bourbon/helpers/_gradient-positions-parser.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/.sass-cache/fa5552e642f994ac9941b7f77c7bfdf1bb579a96/_base.scssc",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/_ggs_baseline.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/git_common_actions.md",
+		"/Users/timsvoice/Desktop/config.inc.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/home.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/compiled/skeleton.css",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/Choose Browser.sublime-build",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/test.js",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/login.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/untitled.sublime-build"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Open Sans",
+			"Executive",
+			"executive_thin",
+			"executive_bold",
+			"$body_pattern",
+			"body_pattern",
+			"$body_pattern",
+			"pattern",
+			"two",
+			"twoway",
+			"section",
+			"colorA",
+			"two",
+			"<header><h2>",
+			"<header><h2>vendors</h2></header>",
+			"<option value=\"volvo\">Volvo</option>",
+			"<li>",
+			"plants",
+			"Professional",
+			"professional",
+			"Professional",
+			"freight_shipping",
+			"plant_search_quote",
+			"deciduous_trees",
+			"weesies_brothers_farm",
+			"this_that_nursery",
+			"stonehouse_nursery",
+			"stempky_conifer_nursery",
+			"northfield_farms",
+			"marine_city_nursery",
+			"komrska_tree_farm",
+			"kdrive_greenhouse",
+			"green_acres_tree_farm",
+			"containers_greenhouses",
+			"tropicals",
+			"<a href=\"#\"",
+			"<a href=\"#\"<h2>",
+			"href=\"#\"",
+			"=\"#\"<",
+			"</header>",
+			"<h2>",
+			"a",
+			"nursery and gard",
+			"nursery",
+			"annuals",
+			"green",
+			"annuals",
+			"li",
+			"about",
+			"		{",
+			"four",
+			"class",
+			"alpha",
+			"h2",
+			"section",
+			"h4",
+			"h2",
+			"h1",
+			"li",
+			"timothyvoice",
+			"/home/",
+			"/home/content/53/11112053/html/core/",
+			"meta",
+			"This",
+			"Thi",
+			"This",
+			"this",
+			"li",
+			"home",
+			"li",
+			"stylesheet",
+			"link",
+			"<link"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "skeleton/index.html",
+					"settings":
+					{
+						"buffer_size": 17545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2465,
+								2465
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 775.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "skeleton/stylesheets/sass/_typography.scss",
+					"settings":
+					{
+						"buffer_size": 2506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1536,
+								1536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1488.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								888,
+								888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "skeleton/stylesheets/sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 901.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "skeleton/stylesheets/sass/_variables_mixins.scss",
+					"settings":
+					{
+						"buffer_size": 3532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "skeleton/stylesheets/sass/_ggs_baseline.scss",
+					"settings":
+					{
+						"buffer_size": 4561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1175.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ggs",
+				"skeleton/stylesheets/sass/_ggs_baseline.scss"
+			],
+			[
+				"two",
+				"great_green_sources.sublime-workspace"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"inde",
+				"skeleton/index.html"
+			],
+			[
+				"<!",
+				"<!DOCTYPE html>"
+			],
+			[
+				"prod",
+				"products.html"
+			],
+			[
+				"",
+				"about.html"
+			],
+			[
+				"page",
+				"skeleton/stylesheets/sass/_page-layout.scss"
+			],
+			[
+				"home",
+				"skeleton/home.html"
+			],
+			[
+				"bas",
+				"skeleton/stylesheets/sass/_ggs_baseline.scss"
+			],
+			[
+				"typo",
+				"skeleton/stylesheets/sass/_typography.scss"
+			],
+			[
+				"base",
+				"skeleton/stylesheets/.sass-cache/fa5552e642f994ac9941b7f77c7bfdf1bb579a96/_base.scssc"
+			],
+			[
+				"hone",
+				"skeleton/stylesheets/sass/bourbon/helpers/_gradient-positions-parser.scss"
+			],
+			[
+				"ty",
+				"skeleton/stylesheets/sass/_typography.scss"
+			],
+			[
+				"ele",
+				"skeleton/stylesheets/sass/_elements.scss"
+			],
+			[
+				"typogra",
+				"skeleton/stylesheets/sass/_typography.scss"
+			],
+			[
+				"hom",
+				"skeleton/home.html"
+			],
+			[
+				"scss",
+				"skeleton/stylesheets/sass/style.scss"
+			],
+			[
+				"style",
+				"skeleton/stylesheets/compiled/style.css"
+			],
+			[
+				"sty",
+				"skeleton/stylesheets/compiled/style.css"
+			],
+			[
+				"logi",
+				"skeleton/login.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 314.0,
+	"status_bar_visible": true
+}

@@ -4,7 +4,7 @@ $colorA:rgba(0,0,0, 1);
 $colorB:rgba(200,200,200, 1);
 $colorC:rgba(0,0,70, 1);
 $colorD:rgba(196,44,37, 1);
-$body_pattern:url('../../images/background.png') repeat;
+$body_pattern:none;
 $body_color:green;
 $container_pattern:rgba(255,255,255, 1);
 $padding:20px;
@@ -29,7 +29,7 @@ hr {
 
 //Typography//
 
-$link_color:$colorD;
+$link_color:$colorA;
 
 @mixin light {
   font-weight:200;

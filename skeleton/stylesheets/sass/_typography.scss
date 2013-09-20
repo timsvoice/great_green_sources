@@ -7,25 +7,25 @@
 @import "_ggs_baseline";
 
 @font-face {  
-  font-family: "Executive_Regular";  
-  src: url(../fonts/Executive/executive_regular.eot); /* IE */  
-  src: url("Executive"), url(../fonts/Executive/executive_regular.ttf) format("truetype"); /* non-IE */ 
+  font-family: "OpenSans_Regular";  
+  src: url(../fonts/OpenSans/OpenSans-regular.eot); /* IE */  
+  src: url("OpenSans"), url(../fonts/OpenSans/OpenSans-regular.ttf) format("truetype"); /* non-IE */ 
 }
 
 @font-face {  
-  font-family: "Executive_Bold";  
-  src: url(../fonts/Executive/executive_bold.eot); /* IE */  
-  src: url("Executive"), url(../fonts/Executive/executive_bold.ttf) format("truetype"); /* non-IE */ 
+  font-family: "OpenSans_Light";  
+  src: url(../fonts/OpenSans/OpenSans-light.eot); /* IE */  
+  src: url("OpenSans"), url(../fonts/OpenSans/OpenSans-light.ttf) format("truetype"); /* non-IE */ 
 }
 
 @font-face {  
-  font-family: "Executive_Thin";  
-  src: url(../fonts/Executive/executive_thin.eot); /* IE */  
-  src: url("Executive"), url(../fonts/Executive/executive_thin.ttf) format("truetype"); /* non-IE */ 
+  font-family: "OpenSans_Bold";  
+  src: url(../fonts/OpenSans/OpenSans-bold.eot); /* IE */  
+  src: url("OpenSans"), url(../fonts/OpenSans/OpenSans-bold.ttf) format("truetype"); /* non-IE */ 
 }
 
 * {
-  font-family: 'Executive', sans-serif;
+  font-family: 'OpenSans', sans-serif;
 }
 
 h1, h2 {
@@ -35,7 +35,7 @@ h1, h2 {
 
 h1#branding {
   @include massive;
-  font-family: 'Executive', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-weight:800;
   text-transform:uppercase;
   border-bottom:1px solid $colorA;
@@ -81,16 +81,15 @@ p#login_intro {
 }
 
 .light {
-  font-weight:200;
+  font-family: 'OpenSans-light', sans-serif;
 }
 
 .regular {
-  font-weight:400;
+  font-family: 'OpenSans-regular', sans-serif;
 }
 
 .bold {
-  font-weight:800;
-  font-style:bold;
+  font-family: 'OpenSans-bold', sans-serif;
 }
 
 .italic {
