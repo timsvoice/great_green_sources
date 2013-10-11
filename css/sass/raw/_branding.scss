@@ -1,0 +1,21 @@
+/*
+*
+* Branding
+*
+*/
+
+@import "variables_mixins";
+
+#branding {
+  @include branding(60px, 65px);
+  margin: 5px 50px 0px;
+}
+
+#branding:hover {
+  background:url('../assets/images/branding_home.png') repeat;
+  background-size:cover;
+  width:60px; 
+  height:65px;
+  display:block;
+  margin: 5px 50px 0px;
+}

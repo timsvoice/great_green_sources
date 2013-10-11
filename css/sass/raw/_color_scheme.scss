@@ -1,0 +1,49 @@
+/*
+*
+* Color Scheme and Patterns
+*
+*/
+
+@import "variables_mixins";
+
+/* Choose $body_pattern or $body_color*/
+body {
+  background:$body_pattern;
+}
+
+body.container {
+  overflow:hidden;
+  background-color:$container_pattern;
+  margin:50px auto;
+  padding:$padding*2;
+}
+
+#primary_color, #secondary_color, #tertiary_color, #primary_pattern{
+  height:100px;
+  margin:5px 0px 0px 0px;
+}
+
+#color_block {
+  height:744px;
+    #colorA {
+      height:460px;
+      background-color:$colorA;
+    }
+    #colorB {
+      height:284px;
+       background-color:$colorB;
+    }
+    #colorCD {
+      height:284px;  
+    }
+      #colorC {
+        height:176px;
+        width:176px;
+        background-color:$colorC;
+      }
+      #colorD {
+        height:108px;
+        width:176px;
+        background-color:$colorD;
+      }
+}

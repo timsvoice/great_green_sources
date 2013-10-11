@@ -1,0 +1,180 @@
+//Color//
+
+$colorA:hsla(130,50%,30%, 1);
+$colorB:hsla(0,0%,0%, 1);
+$colorC:hsla(360,0,100, 1);
+$colorD:hsla(360,0,0, 1);
+$body_pattern:none;
+$body_color:green;
+$container_pattern:rgba(255,255,255, 1);
+$padding:20px;
+$icon_color:black;
+
+//Structure//
+
+hr {
+  border:1px solid $colorB;
+}
+
+//Branding//
+
+@mixin branding ($branding_width, $branding_height) {
+  background:url('../../assets/images/branding.png') repeat;
+  background-size:cover;
+  width:$branding_width; 
+  height:$branding_height;
+  display:block;
+}
+
+//Typography//
+
+$link_color:$colorB;
+
+@mixin light {
+  font-weight:200;
+}
+
+@mixin regular {
+  font-weight:400;
+}
+
+@mixin bold {
+  font-weight:800;
+  font-style:bold;
+}
+
+@mixin italic {
+  font-weight:400;
+  font-style:italic;
+}
+
+//Elements//
+
+$buttoncolor_primary:$colorA;
+$buttoncolor_secondary:gray;
+$aspect_ratio:0.8;
+
+@mixin textField ($field_border_color, $field_border) {
+  border:$field_border solid $field_border_color;
+  padding:5px;
+}
+
+@mixin submit ($submit_color, $submit_border_color, $submit_border) {
+  border:$submit_border solid $submit_border_color;
+  background-color:$submit_color;
+  padding:5px;
+}
+
+@mixin textarea ($textarea_color, $textarea_border_color, $textarea_border) {
+  border:$textarea_border solid $textarea_border_color;
+  background-color:$textarea_color;
+  padding:5px;
+}
+
+@mixin button ($buttoncolor, $border) {
+  display:block;
+  float:left;
+  padding:0 7px;
+  background-color:$buttoncolor;
+  border:$border solid $colorA;
+  line-height:140%;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+//Layouts//
+
+@mixin headblock_three {
+  #headblock_three_container {
+    float:right;
+    #headblock_three {
+      float:right;
+      padding-bottom:10px;
+        img#headblock_three_a {
+          float:left;
+          
+        }
+        img#headblock_three_b {
+          float:right;
+          
+        }
+        img#headblock_three_c {
+          float:right;
+          
+          padding:10px 0px 0px 0px;
+        }  
+    }
+  }  
+}
+
+@mixin headblock_two {
+  #headblock_two_container {
+    float:right;
+    #headblock_two {
+      float:right;
+      padding-bottom:10px;
+        img#headblock_two_a {
+          float:left;
+          
+        }
+        img#headblock_two_b {
+          float:right;
+          
+        } 
+    }
+  }  
+}
+
+@mixin headblock_one {
+  #headblock_one_container {
+    float:right;
+    #headblock_one {
+      padding-bottom:10px;
+      float:right;
+        img#headblock_one_a {
+        }  
+    }
+  }  
+}  
+
+@mixin bodyblock_two {
+  #bodyblock_two_container {
+    float:right;
+    margin:10px 0px;
+    #bodyblock_two {
+      float:right;
+      padding-bottom:10px;    
+        img#bodyblock_two_a {
+          float:left;
+          padding:20px 10px 0px 0px;
+        }
+        img#bodyblock_two_b {
+          float:left;
+          clear:left;
+          padding:10px 10px 10px 0px;
+        }  
+    }
+  }  
+}  
+  
+//Images//
+
+@mixin large_format_image ($large_format_image_width, $large_format_image_height) {
+  width:$large_format_image_width;
+  height:$large_format_image_height;
+}
+
+@mixin medium_format_image ($medium_format_image_width, $medium_format_image_height) {
+  width:$medium_format_image_width;
+  height:$medium_format_image_height;
+}
+
+@mixin small_format_image ($small_format_image_width, $small_format_image_height) {
+  width:$small_format_image_width;
+  height:$small_format_image_height;
+}
+
+@mixin micro_format_image ($micro_format_image_width, $micro_format_image_height) {
+  width:$micro_format_image_width;
+  height:$micro_format_image_height;
+}

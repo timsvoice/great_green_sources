@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"colr",
+				"colorA"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"branding",
+				"branding_height"
+			],
+			[
+				"button",
+				"button_color"
+			],
+			[
+				"color",
+				"colorA"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"cl",
+				"colorB"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
 				"Open",
 				"OpenSans-light"
 			],
@@ -24,24 +80,12 @@
 				"list-style-type"
 			],
 			[
-				"in",
-				"inline-block"
-			],
-			[
-				"color",
-				"colorA"
-			],
-			[
 				"padding",
 				"padding-top"
 			],
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"se",
@@ -51,66 +95,19 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "skeleton/index.html",
-			"settings":
-			{
-				"buffer_size": 17545,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "skeleton/stylesheets/sass/_typography.scss",
-			"settings":
-			{
-				"buffer_size": 2506,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Great Green Sources</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n  </head>\n  <body>\n    \n   <header>\n        <a href=\"index.html\"><img src=\"/assets/images/branding.png\" id=\"branding\"></a>\n        \n        <nav>\n            <ul>\n              <li><a href=\"products.html\">plants</a></li>\n              <li><a href=\"vendors.html\">vendors</a></li>\n              <li><a href=\"services.html\">services</a></li>\n              <li><a href=\"about.html\">about</a></li>\n            </ul> \n        </nav>  \n      \n        <article>id=\"header_contact\">\n                <a href=\"mailto:krisernst@greatgreensources.com\">Email Kris</a>\n                <a href=\"tel:+13174562564\">317-456-2564</a>\n        </article><!--header_contact-->\n    </header>\n  	\n    <section id=\"finder\">\n    	<header><h1>what can we help you find?</h1></header>\n        <article>\n        <header><h2>vendors</h2></header>\n        	<select name=\"vendors\">\n              <option value=\"volvo\">Volvo</option>\n    		  <option value=\"saab\">Saab</option>\n    		  <option value=\"mercedes\">Mercedes</option>\n    		  <option value=\"audi\">Audi</option>\n    		</select>\n        </article>\n\n        <article>\n        <header><h2>plants</h2></header>\n    		<select name=\"plants\">\n             <option value=\"volvo\">Volvo</option>\n    		  <option value=\"saab\">Saab</option>\n    		  <option value=\"mercedes\">Mercedes</option>\n    		  <option value=\"audi\">Audi</option>\n    		</select>\n        </article>\n\n        <article>\n        <header><h2>services</h2></header>\n    		<select name=\"services\">\n              <option value=\"volvo\">Volvo</option>\n    		  <option value=\"saab\">Saab</option>\n    		  <option value=\"mercedes\">Mercedes</option>\n    		  <option value=\"audi\">Audi</option>\n          </article>\n		</select>\n\n		<form>\n            <input type=\"search\" name=\"search\" placeholder=\"search\">\n            <button type=\"submit\">search</button>\n        </form>\n		<form action=\"#\" id=\"newsletter_signup\">\n			<input type=\"email\" name=\"newsletter_email\" placeholder=\"sign up for news\">\n			<button type=\"submit\">subscribe</button>\n		</form><!--newsletter_signup-->\n    \n    </section><!--finder-->\n\n    <section id=\"main_info\">\n    	<article id=\"main_about\">\n    		<header><h2>about</h2></header>	\n        	<p>\n                Great Green Sources is a full service wholesale plant distributor delivering quality products to nurseries accross the United States. The cornerstone of Great Green Sources is a genuine and lasting relationship with all our customers and our select list of plant vendors.\n            </p>\n    	</article>\n\n		<article id=\"recommendations\"> \n    		<header><h2>what people are saying</h2></header>\n    		<blockquote>\n                searchOlecatius. Pa accatetus eveligendunt unti velitib ustrum, cus, solorernatur aut audipsae ne vendaepudit, autatus sinvel ipsametur resecatur?\n            </blockquote>\n    		<blockquote>\n                searchOlecatius. Pa accatetus eveligendunt unti velitib ustrum, cus, solorernatur aut audipsae ne vendaepudit, autatus sinvel ipsametur resecatur?\n            </blockquote>\n    	</article><!--recommendations-->\n\n    </section><!--info-->\n\n    <footer>\n        \n        <article id=\"about_info\">\n            <header>\n                <h2>about us</h2>\n            </header>\n            <nav>\n            <ul>\n                <p>\n                    Great Green Sources a wholesale distributor for trees, shrubs, perennials, annuals, liners, pots, garden and greenhouse supplies.\n                </p>\n                <li><a href=\"#\">contact us today</a></li>\n            </ul>\n            </nav>\n        </article><!--about_info-->\n        \n        <article id=\"about_products\">\n            <header>\n                <h2>our products</h2>\n            </header>\n            <nav>\n            <ul>\n                <li><a href=\"vendors.html\">vendors</a></li>\n                <li><a href=\"products.html\">plants</a></li>\n                <li><a href=\"services.html\">services</a></li>\n            </ul>\n            </nav>\n        </article><!--about_products-->\n\n    </footer>\n\n  </body>\n</html>",
-			"file": "index.html",
-			"file_size": 4165,
-			"file_write_time": 1379602475000000,
-			"settings":
-			{
-				"buffer_size": 4217,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "skeleton/stylesheets/sass/style.scss",
-			"settings":
-			{
-				"buffer_size": 922,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "skeleton/stylesheets/sass/_variables_mixins.scss",
-			"settings":
-			{
-				"buffer_size": 3532,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "skeleton/stylesheets/sass/_ggs_baseline.scss",
-			"settings":
-			{
-				"buffer_size": 4561,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/Choose Browser.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 387.0,
 		"selected_items":
 		[
 			[
 				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"CSS",
 				"Set Syntax: CSS"
 			],
 			[
@@ -179,15 +176,52 @@
 	},
 	"file_history":
 	[
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/compiled/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/project_css.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_ggs_baseline.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/compiled/layout.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/mediaLandscape.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_imagery.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_branding.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/style_guide.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/compiled/skeleton.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_resets.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_layout.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/project.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/compiled",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/project_js.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/project_html.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/README.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/compiled/grid.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/about.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/playbook.mdown",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_color_scheme.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_elements.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_ggs_baseline.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_variables_mixins.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_variables_mixins.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_branding.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_variables_mixins.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_ggs_baseline.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_elements.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/git_common_actions.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/README.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_branding.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_resets.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaTablet.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaSmall.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaPortrait.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaMobile.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/mediaLandscape.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_branding.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_color_scheme.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/layout.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/base.css",
@@ -195,20 +229,16 @@
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/mediaMobile.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/mediaPortrait.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/mediaSmall.css",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_variables_mixins.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/compiled/style.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/great_green_sources.sublime-workspace",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/playbook.mdown",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/index.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/vendors.html",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/index.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/contact_form.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/about.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/services.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/products.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/style.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/_variables_mixins.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/index.html",
 		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/_typography.scss",
@@ -218,7 +248,6 @@
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/bourbon/helpers/_gradient-positions-parser.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/.sass-cache/fa5552e642f994ac9941b7f77c7bfdf1bb579a96/_base.scssc",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/sass/_ggs_baseline.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/git_common_actions.md",
 		"/Users/timsvoice/Desktop/config.inc.php",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/home.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/Style-Sheet-Template/skeleton/stylesheets/compiled/skeleton.css",
@@ -243,6 +272,90 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"beta",
+			"one column alpha",
+			"<a href=\"project_html.html\">more...</a>",
+			"<p>.",
+			"<section class=\"one-third",
+			"alt=\"project folder\"",
+			"img alt=\"project folder\"",
+			"/assets/images/",
+			"id=\"project",
+			"<div class=\"project_link tw",
+			"<article>\n                        <img class=\"document_icon\"",
+			"<img alt=\"document icon\"",
+			"class=\"project_summary two columns alpha omega\"",
+			"img class=\"two columns alpha\"",
+			"<hr />",
+			"font-family",
+			"header,",
+			"header",
+			"two",
+			"$branding_width:",
+			"include",
+			"body_color",
+			"aspect_ratio",
+			"_css",
+			"css",
+			"one column",
+			"one-third column",
+			"href=\"mailto:",
+			"href=\"mailto:hello@revengineer.",
+			"ref=\"mailto:hello@r",
+			"<li>",
+			"ga\" src=\"css/asse",
+			"mns alpha omega\"",
+			"ega\"",
+			"y three columns",
+			"two columns",
+			"project_summary",
+			"class=\"thirteen colum",
+			"class=\"ten columns\"",
+			"img class=\"six columns\" ",
+			"a target=\"blank\"",
+			"<article class=\"project_summary\">",
+			"<header><a ",
+			"section id=\"p",
+			"href=\"www.",
+			"blank\" href=\"",
+			"er><a",
+			"der><h2",
+			"h2",
+			"_css",
+			"_html",
+			"html",
+			"h2",
+			"a href",
+			"</article>",
+			"<!--project_summary-->",
+			"<article>",
+			"<p class=\"project",
+			"article id=\"project",
+			"href=\"projects",
+			"img src",
+			".htm",
+			"</artic",
+			"</a",
+			"/a>",
+			"<im",
+			"<head",
+			"<h2>",
+			"rticle>",
+			"	\n        	</article>",
+			"        		\n",
+			"</art",
+			"id=\"pr",
+			"<a",
+			"stylesheets",
+			"</a>",
+			"html\">",
+			"\">",
+			"class=\"m",
+			"class",
+			"class=\"main_nav_item\"",
+			"a href",
+			"main",
+			"brand",
 			"Open Sans",
 			"Executive",
 			"executive_thin",
@@ -286,36 +399,7 @@
 			"<h2>",
 			"a",
 			"nursery and gard",
-			"nursery",
-			"annuals",
-			"green",
-			"annuals",
-			"li",
-			"about",
-			"		{",
-			"four",
-			"class",
-			"alpha",
-			"h2",
-			"section",
-			"h4",
-			"h2",
-			"h1",
-			"li",
-			"timothyvoice",
-			"/home/",
-			"/home/content/53/11112053/html/core/",
-			"meta",
-			"This",
-			"Thi",
-			"This",
-			"this",
-			"li",
-			"home",
-			"li",
-			"stylesheet",
-			"link",
-			"<link"
+			"nursery"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -333,176 +417,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "skeleton/index.html",
-					"settings":
-					{
-						"buffer_size": 17545,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2465,
-								2465
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 775.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "skeleton/stylesheets/sass/_typography.scss",
-					"settings":
-					{
-						"buffer_size": 2506,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1536,
-								1536
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1488.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 4217,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								888,
-								888
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "skeleton/stylesheets/sass/style.scss",
-					"settings":
-					{
-						"buffer_size": 922,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 901.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "skeleton/stylesheets/sass/_variables_mixins.scss",
-					"settings":
-					{
-						"buffer_size": 3532,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								246,
-								246
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "skeleton/stylesheets/sass/_ggs_baseline.scss",
-					"settings":
-					{
-						"buffer_size": 4561,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1175.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -512,7 +428,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"layout":
 	{
@@ -552,6 +468,18 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/index.html"
+			],
+			[
+				"brandi",
+				"skeleton/stylesheets/sass/_branding.scss"
+			],
+			[
+				"elem",
+				"skeleton/stylesheets/sass/_elements.scss"
+			],
+			[
 				"ggs",
 				"skeleton/stylesheets/sass/_ggs_baseline.scss"
 			],
@@ -562,10 +490,6 @@
 			[
 				"index",
 				"index.html"
-			],
-			[
-				"inde",
-				"skeleton/index.html"
 			],
 			[
 				"<!",
@@ -650,6 +574,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 314.0,
+	"side_bar_width": 258.0,
 	"status_bar_visible": true
 }
