@@ -95,6 +95,49 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "style_guide.html",
+			"settings":
+			{
+				"buffer_size": 17727,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/raw/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 2548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/raw/_elements.scss",
+			"settings":
+			{
+				"buffer_size": 2431,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*\n*\n* Branding\n*\n*/\n\n@import \"variables_mixins\";\n\n#branding {\n  @include branding(60px, 65px);\n  margin: 5px 50px 0px;\n}\n\n#branding:hover {\n  background:url('../../assets/images/branding_home.png') repeat;\n  background-size:cover;\n  width:60px; \n  height:65px;\n  display:block;\n  margin: 5px 50px 0px;\n}\n",
+			"file": "css/sass/raw/_branding.scss",
+			"file_size": 302,
+			"file_write_time": 1381494228000000,
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/raw/_variables_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 3523,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/Choose Browser.sublime-build",
 	"command_palette":
@@ -272,6 +315,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/ass",
+			"../",
+			"url(../",
+			"src=\"./images",
+			"stylesheets/",
 			"beta",
 			"one column alpha",
 			"<a href=\"project_html.html\">more...</a>",
@@ -394,12 +442,7 @@
 			"<a href=\"#\"",
 			"<a href=\"#\"<h2>",
 			"href=\"#\"",
-			"=\"#\"<",
-			"</header>",
-			"<h2>",
-			"a",
-			"nursery and gard",
-			"nursery"
+			"=\"#\"<"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -417,8 +460,146 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "style_guide.html",
+					"settings":
+					{
+						"buffer_size": 17727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								441,
+								441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/sass/raw/_typography.scss",
+					"settings":
+					{
+						"buffer_size": 2548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/sass/raw/_elements.scss",
+					"settings":
+					{
+						"buffer_size": 2431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								676
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 856.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/sass/raw/_branding.scss",
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/sass/raw/_variables_mixins.scss",
+					"settings":
+					{
+						"buffer_size": 3523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

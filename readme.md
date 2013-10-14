@@ -1,4 +1,4 @@
-great_green_sources
+Great Green Sources
 ===================
 
 ## Author: Timothy Voice
