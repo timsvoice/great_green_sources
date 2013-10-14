@@ -1,17 +1,4 @@
-Great Green Sources
+great_green_sources
 ===================
-url: www.greatgreensources.com
-### Author 
-Timothy Voice
 
-### Description:
-The website for Great Green Sources, a wholesale plant distributor based in Ada, MI.
-
-### Copyright 
-All Rights Reserved
-
-
-
-
-
-
+Website for Great Green Sources
