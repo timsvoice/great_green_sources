@@ -1,4 +1,4 @@
-//Color//
+/* Color */ 
 
 $colorA:hsla(130,50%,30%, 1);
 $colorB:hsla(0,0%,0%, 1);
@@ -10,13 +10,13 @@ $container_pattern:rgba(255,255,255, 1);
 $padding:20px;
 $icon_color:black;
 
-//Structure//
+/* Structure */ 
 
 hr {
   border:1px solid $colorB;
 }
 
-//Branding//
+/* Branding */ 
 
 @mixin branding ($branding_width, $branding_height) {
   background:url('../../assets/images/branding.png') repeat;
@@ -26,7 +26,7 @@ hr {
   display:block;
 }
 
-//Typography//
+/* Typography */
 
 $link_color:$colorB;
 
@@ -48,7 +48,7 @@ $link_color:$colorB;
   font-style:italic;
 }
 
-//Elements//
+/* Elements */
 
 $buttoncolor_primary:$colorA;
 $buttoncolor_secondary:gray;
@@ -82,7 +82,29 @@ $aspect_ratio:0.8;
   cursor:pointer;
 }
 
-//Layouts//
+/* Images */ 
+
+@mixin large_format_image ($large_format_image_width, $large_format_image_height) {
+  width:$large_format_image_width;
+  height:$large_format_image_height;
+}
+
+@mixin medium_format_image ($medium_format_image_width, $medium_format_image_height) {
+  width:$medium_format_image_width;
+  height:$medium_format_image_height;
+}
+
+@mixin small_format_image ($small_format_image_width, $small_format_image_height) {
+  width:$small_format_image_width;
+  height:$small_format_image_height;
+}
+
+@mixin micro_format_image ($micro_format_image_width, $micro_format_image_height) {
+  width:$micro_format_image_width;
+  height:$micro_format_image_height;
+}
+
+/* Layouts */ 
 
 @mixin headblock_three {
   #headblock_three_container {
@@ -156,25 +178,4 @@ $aspect_ratio:0.8;
     }
   }  
 }  
-  
-//Images//
 
-@mixin large_format_image ($large_format_image_width, $large_format_image_height) {
-  width:$large_format_image_width;
-  height:$large_format_image_height;
-}
-
-@mixin medium_format_image ($medium_format_image_width, $medium_format_image_height) {
-  width:$medium_format_image_width;
-  height:$medium_format_image_height;
-}
-
-@mixin small_format_image ($small_format_image_width, $small_format_image_height) {
-  width:$small_format_image_width;
-  height:$small_format_image_height;
-}
-
-@mixin micro_format_image ($micro_format_image_width, $micro_format_image_height) {
-  width:$micro_format_image_width;
-  height:$micro_format_image_height;
-}

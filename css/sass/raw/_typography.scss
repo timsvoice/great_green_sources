@@ -6,6 +6,8 @@
 
 @import "_ggs_baseline";
 
+/* fonts */
+
 @font-face {  
   font-family: "OpenSans_Regular";  
   src: url(../assets/fonts/OpenSans/OpenSans-regular.eot); /* IE */  
@@ -24,6 +26,8 @@
   src: url("OpenSans"), url(../assets/fonts/OpenSans/OpenSans-bold.ttf) format("truetype"); /* non-IE */ 
 }
 
+/* general styles */
+
 * {
   font-family: 'OpenSans', sans-serif;
 }
@@ -31,30 +35,6 @@
 h1, h2 {
   text-transform: capitalize;
   font-weight:400;
-}
-
-h1#branding {
-  @include massive;
-  font-family: 'OpenSans', sans-serif;
-  font-weight:800;
-  text-transform:uppercase;
-  border-bottom:1px solid $colorA;
-  margin-bottom:10px;
-}
-
-h1#project_name {
-  margin-bottom:0px;
-}
-
-h1#login_welcome {
-  text-transform:uppercase;
-  border-bottom:1px solid $colorA;
-  margin-bottom:25px;
-}
-
-span#h1_research {
-   @include light;
-   font-weight:200;
 }
 
 body p{
@@ -66,19 +46,22 @@ a {
   color:$link_color;
 }
 
-ul#menu {
-  display:inline-block;
-}
-
 li {
   list-style:none;
   display:inline-block;
   margin:0px 20px 10px 0px;
 }
 
-p#login_intro {
-  margin:50px 0px 0px 0px;
+blockquote {
+    font-size:0.813em;
+    font-weight:200;
 }
+
+button {
+  text-transform:uppercase;
+}
+
+/* typographic styles */
 
 .light {
   font-family: 'OpenSans-light', sans-serif;
@@ -106,6 +89,40 @@ p#login_intro {
   margin:0px 0px 0px 0px;
 }
 
+/* section specific typography */
+
+h1#branding {
+  @include massive;
+  font-family: 'OpenSans', sans-serif;
+  font-weight:800;
+  text-transform:uppercase;
+  border-bottom:1px solid $colorA;
+  margin-bottom:10px;
+}
+
+h1#project_name {
+  margin-bottom:0px;
+}
+
+h1#login_welcome {
+  text-transform:uppercase;
+  border-bottom:1px solid $colorA;
+  margin-bottom:25px;
+}
+
+span#h1_research {
+   @include light;
+   font-weight:200;
+}
+
+ul#menu {
+  display:inline-block;
+}
+
+p#login_intro {
+  margin:50px 0px 0px 0px;
+}
+
 #content_block {
   float:right;
 }
@@ -122,10 +139,6 @@ p#login_intro {
   margin-top:50px;
 }
 
-button {
-  text-transform:uppercase;
-}
-
 .pullquote h3{
   @include italic;
   @include large;
@@ -139,11 +152,6 @@ button {
   max-width: 400px;
   border-right: 2px solid rgb(204, 204, 204);
   padding-right: 10px;
-}
-
-blockquote {
-    font-size:0.813em;
-    font-weight:200;
 }
 
 #layout .img_block_caption{
