@@ -2,8 +2,8 @@
 
 #### url: www.greatgreensources.com
 
-## Author:
+## Author
 Timothy Voice
 
-## license:
-read license.md
+## license
+see license.md
