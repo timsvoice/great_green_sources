@@ -1,5 +1,5 @@
 /*
-Errno::ENOENT: No such file or directory - sass
+Errno::ENOENT: No such file or directory - raw
 
 Backtrace:
 /Library/Ruby/Gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/plugin/compiler.rb:360:in `read'
@@ -21,4 +21,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - sass"; }
+  content: "Errno::ENOENT: No such file or directory - raw"; }
