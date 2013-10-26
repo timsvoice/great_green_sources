@@ -1,0 +1,35 @@
+//modules
+
+@import "config";
+
+//navigation
+
+#main_nav {
+		position:fixed;
+	background-color:$colorA;
+	#main_nav_menu {
+		height:60px;
+		margin:0;
+	}
+}
+
+.main_nav_item {
+	width:188px;
+	text-align:center;
+	vertical-align:middle;
+	margin-top:-110px;
+
+	a {
+		text-decoration: none;
+		color:$colorC;
+		h2{
+			margin:0px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.branding {
+	width:88.2px;
+	height:90.4px;
+}

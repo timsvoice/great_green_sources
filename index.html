@@ -40,40 +40,44 @@
 <body>
     <div class="container">
 
-    <header class="sixteen columns alpha omega">
-        <nav id="main_nav">
-            
-            <ul id="main_nav_menu" class="sixteen columns alpha omega">
-              <li class="main_nav_item"><a href="products.html"><h2>products</h2></a></li>
-              <li class="main_nav_item"><a href="vendors.html"><h2>vendors</h2></a></li>
-              <li><a href="index.html" id="branding"></h2></a></li>
-              <li class="main_nav_item"><a href="services.html"><h2>services</h2></a></li>
-              <li class="main_nav_item"><a href="contact.html"><h2>contact</h2></a></li>
-            </ul><!--main_nav_menu-->
+    <section id="nav">
+            <nav id="main_nav" class="sixteen columns alpha omega">
+                
+                <ul id="main_nav_menu">
+                  <li class="main_nav_item"><a href="products.html"><h2>products</h2></a></li>
+                  <li class="main_nav_item"><a href="vendors.html"><h2>vendors</h2></a></li>
+                  <li><a href="index.html"><img class="branding" src="css/assets/images/branding.png"></a></li>
+                  <li class="main_nav_item"><a href="services.html"><h2>services</h2></a></li>
+                  <li class="main_nav_item"><a href="contact.html"><h2>contact</h2></a></li>
+                </ul><!--main_nav_menu-->
 
-        </nav><!--main_nav-->  
-    </header>
+            </nav><!--main_nav-->  
+    </section>
 
-    <header id="branding_name" class="ten columns"><h1 id="branding_ggs">Great Green Sources</h1><h2 id="branding_tagline">growing great relationships</h2></header>
+    <br class="clear" />
+
+    <header id="branding_name" class="fourteen columns alpha omega offset-by-one"><h1 id="branding_ggs">Great Green Sources</h1><h2 id="branding_tagline">growing great relationships</h2></header>
   	
-    <section id="finder" class="ten columns alpha omega">
+    <section id="finder" class="fourteen columns alpha omega offset-by-one">
     	<header id="finder_header"><h1>what can we help you find?</h1></header>
         
-        <ul id="button_nav_list" class="ten columns alpha omega offset-by-three">
+        <ul id="button_nav_list" class="fourteen columns alpha omega offset-by-one">
             <li class="button_nav two columns"><a href="products.html"><h2>plants</h2></a></li>
             <li class="button_nav two columns"><a href="vendors.html"><h2>vendors</h2></a></li>	
             <li class="button_nav two columns"><a href="service.html"><h2>services</h2></a></li>
             <li class="button_nav two columns"><a href="products.html"><h2>news</h2></a></li>	
         </ul><!--button_nav-->
 
-		<form id="search_form" class="ten columns alpha omega offset-by-three">
+		<form id="search_form" class="fourteen columns alpha omega offset-by-one">
             <input id="search_main" type="search" name="search" placeholder="search">
             <button type="submit">search</button>
         </form><!--search_form-->
     
     </section><!--finder-->
 
-    <section id="main_info" class="ten columns alpha omega">
+    <br class="clear" />
+
+    <section id="main_info" class="fourteen columns alpha omega offset-by-one">
     	<article id="main_about">
     		<header><h2>about</h2></header>	
         	<p>
@@ -83,9 +87,11 @@
 
     </section><!--info-->
 
-    <footer>
+    <br class="clear" />
+
+    <footer class="sixteen columns alpha omega">
         
-        <article id="about_info">
+        <article id="about_info" class="seven columns alpha omega offset-by-one">
             <header>
                 <h2>about us</h2>
             </header>
@@ -94,22 +100,31 @@
                 <p>
                     Great Green Sources a wholesale distributor for trees, shrubs, perennials, annuals, liners, pots, garden and greenhouse supplies.
                 </p>
+                <p>
+                    For info regarding our services and shipping, see our services page
+                </p>
                 <li><a href="#">contact us today</a></li>
             </ul>
             </nav>
         </article><!--about_info-->
         
-        <article id="about_products">
-            <header>
-                <h2>our products</h2>
-            </header>
-            <nav>
-            <ul>
-                <li><a href="vendors.html">vendors</a></li>
-                <li><a href="products.html">plants</a></li>
-                <li><a href="services.html">services</a></li>
-            </ul>
-            </nav>
+        <article id="about_newsletter">
+            <h2>subscribe to our newsletter</h2>
+
+            <form action="index.html" method="post" class="newsletter_form">
+                <input type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
+                <button type="submit" class="newsletter_submit">Subscribe</button>
+            </form>
+        </article>
+
+        <article id="about_products" class="seven columns alpha omega offset-by-one">
+            <nav id="footer_nav">
+                <ul>
+                    <li><a href="vendors.html">vendors</a></li>
+                    <li><a href="products.html">plants</a></li>
+                    <li><a href="services.html">services</a></li>
+                </ul>
+            </nav><!--footer_nav-->
         </article><!--about_products-->
 
     </footer>
