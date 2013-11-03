@@ -1073,6 +1073,20 @@ footer {
       color: white;
       text-decoration: none; }
 
+.newsletter_form {
+  margin-top: 0.75em; }
+
+input#newsletter_form_email {
+  height: 1.8em;
+  font-size: 0.75em; }
+
+button.newsletter_submit {
+  border: none;
+  background-color: white;
+  color: #006636;
+  text-transform: uppercase;
+  border-bottom: 0.25em solid #004d29; }
+
 #about_info ul {
   margin: 0 0 0 0;
   padding-left: 0px; }
