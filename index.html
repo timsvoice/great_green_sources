@@ -16,6 +16,7 @@
         <!-- CSS 
     ================================================== -->
     <link rel="stylesheet" href="css/sass/compiled/style.css">
+    <link rel="stylesheet" href="css/sass/compiled/ionicons.css">
 
         <!-- TYPOGRAPHY
     ================================================== -->  
@@ -38,6 +39,10 @@
 </head>
 
 <body>
+    
+    <div id="main_nav_background"></div>
+
+
     <div class="container">
 
     <section id="nav">
@@ -56,44 +61,60 @@
 
     <br class="clear" />
 
-    <header id="branding_name" class="fourteen columns alpha omega offset-by-one"><h1 id="branding_ggs">Great Green Sources</h1><h2 id="branding_tagline">growing great relationships</h2></header>
-  	
-    <section id="finder" class="fourteen columns alpha omega offset-by-one">
-    	<header id="finder_header"><h1>what can we help you find?</h1></header>
+    <header id="branding_name" class="twelve columns alpha omega offset-by-two"><h1 id="branding_ggs">Great Green Sources</h1><h2 id="branding_tagline">growing great relationships</h2></header>
+
+    <section id="main_info" class="twelve columns alpha omega offset-by-two">
+        <article id="main_about">
+            <p>
+                Great Green Sources is a full service, wholesale plant distributor delivering quality products to nurseries accross the United States. The foundation of Great Green Sources are our genuine and lasting relationships with all our customers and our select list of plant vendors.
+            </p>
+        </article><!--main_about-->
+
+        <hr id="finder_hr">
+    </section><!--info-->
+
+
+
+    <section id="finder" class="twelve columns alpha omega offset-by-two">
+        <!--<hr/>-->
         
-        <ul id="button_nav_list" class="fourteen columns alpha omega offset-by-one">
-            <li class="button_nav two columns"><a href="products.html"><h2>plants</h2></a></li>
-            <li class="button_nav two columns"><a href="vendors.html"><h2>vendors</h2></a></li>	
-            <li class="button_nav two columns"><a href="service.html"><h2>services</h2></a></li>
-            <li class="button_nav two columns"><a href="products.html"><h2>news</h2></a></li>	
+        <ul id="feature_nav_list" class="twelve columns alpha omega offset-by-two">
+            <li class="button_nav four columns omega">
+                <i class="icon-leaf"></i>
+                <p>
+                    We offer the best possible quality nursery plants, planters and greenhouses. Our offerings span the spectrum and we are confident you will find what you need.
+                </p>
+                <a href="products.html"><h2>plants</h2></a>
+            </li>
+            <li class="button_nav four columns omega">
+                <i class="icon-ios7-people"></i>
+                <p>
+                    We pride ouselves on our extensive list of vendors. Each nursery and supplier we work with has a track record of reliability and forms a part of our selective vendor network.
+                </p>
+                <a href="vendors.html"><h2>vendors</h2></a>
+            </li>	
+            <li class="button_nav four columns omega">
+                <i class="icon-briefcase"></i>
+                <p>
+                    We offer plant search and quote services, and consult on landscape planning, marketing, and greenhouse construction, offering insights gained from 35 years in the business. 
+
+                </p>
+                <a href="services.html"><h2>services</h2></a>
+            </li>	
         </ul><!--button_nav-->
 
-		<form id="search_form" class="fourteen columns alpha omega offset-by-one">
-            <input id="search_main" type="search" name="search" placeholder="search">
-            <button type="submit">search</button>
+		<form id="search_form" class="twelve columns omega">
+            <input id="search_main" class="ten columns alpha omega" type="search" name="search" placeholder="search">
+            <button id="search_main_submit" class="two columns alpha omega" type="submit"><i class="icon-search"></i></button>
         </form><!--search_form-->
     
     </section><!--finder-->
 
-    <br class="clear" />
-
-    <section id="main_info" class="fourteen columns alpha omega offset-by-one">
-    	<article id="main_about">
-    		<header><h2>about</h2></header>	
-        	<p>
-                Great Green Sources is a full service, wholesale plant distributor delivering quality products to nurseries accross the United States. The cornerstone of Great Green Sources is a genuine and lasting relationship with all our customers and our select list of plant vendors.
-            </p>
-    	</article><!--main_about-->
-
-    </section><!--info-->
-
-    <br class="clear" />
-
-    <footer class="sixteen columns alpha omega">
+    <footer class="twelve columns alpha omega offset-by-two">
         
-        <article id="about_info" class="seven columns alpha omega offset-by-one">
+        <article id="about_info" class="six columns alpha omega">
             <header>
-                <h2>about us</h2>
+                <h3>about us</h3>
             </header>
             <nav>
             <ul>
@@ -109,7 +130,7 @@
         </article><!--about_info-->
         
         <article id="about_newsletter">
-            <h2>subscribe to our newsletter</h2>
+            <h3>subscribe to our newsletter</h3>
 
             <form action="index.html" method="post" class="newsletter_form">
                 <input type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
@@ -117,9 +138,9 @@
             </form>
         </article>
 
-        <article id="about_products" class="seven columns alpha omega offset-by-one">
+        <article id="about_products" class="six columns alpha omega">
             <nav id="footer_nav">
-                <ul>
+                <ul id="footer_nav_list">
                     <li><a href="vendors.html">vendors</a></li>
                     <li><a href="products.html">plants</a></li>
                     <li><a href="services.html">services</a></li>
@@ -129,5 +150,6 @@
 
     </footer>
 </div><!--container-->
+  <div id="footer_background"></div>
   </body>
 </html>

@@ -1,12 +1,30 @@
 //global styles: element selectors, decendent selectors, child selectors, pseudo-classes
 //no class or ID selectors
 
+@import "config";
+
 //structure
 
-html, body, form {
-	margin:0px;
-	padding:0px;
-	background: white;
+html, body {
+  position: absolute;
+  display: block;
+  height: auto !important;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+	margin:0;
+	padding:0;
+}
+
+body {
+  background:$background;
+}
+
+.container {
+  height: auto !important;
+  min-height: 100%;
+  height: 100%;
 }
 
 //typography
@@ -33,6 +51,8 @@ li {
  background {
 
  }
+
+//responsive grid
 
 /*
 * Skeleton V1.2
@@ -332,8 +352,8 @@ h2, h1 {
 }
 
 @mixin massive {
-  /* 73px */
-  font-size: #{73 / $em}em;
+  /* 64px */
+  font-size: #{64 / $em}em;
   line-height: ($line*3) / 73 * 1em;
 }
 
