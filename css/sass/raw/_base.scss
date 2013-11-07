@@ -46,6 +46,13 @@ li {
   display: inline-block;
 }
 
+::selection {
+  background: $colorE; /* Safari */
+  }
+::-moz-selection {
+  background: $colorE; /* Firefox */
+}
+
 //background
  
  background {

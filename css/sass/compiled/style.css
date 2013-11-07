@@ -370,6 +370,14 @@ li {
   list-style: none;
   display: inline-block; }
 
+::selection {
+  background: rgba(0, 102, 54, 0.4);
+  /* Safari */ }
+
+::-moz-selection {
+  background: rgba(0, 102, 54, 0.4);
+  /* Firefox */ }
+
 /*
 * Skeleton V1.2
 * Copyright 2011, Dave Gamache
@@ -1127,7 +1135,44 @@ h2.tagline {
     border: 0.15em solid black; }
 
 #kris_info {
-  margin-top: 2.25em; }
+  margin-top: 2.25em;
+  margin-bottom: 8em; }
 
 #kris_about p {
   margin-top: 0; }
+
+#vendor_about p {
+  margin: 0 0 2em 0; }
+
+header a {
+  text-decoration: underline;
+  color: inherit; }
+  header a h2 {
+    margin-bottom: 0; }
+
+.vendor_profile {
+  margin: 2em 0 0 0; }
+  .vendor_profile header {
+    margin-bottom: 1.5em; }
+  .vendor_profile p {
+    margin-top: 0; }
+
+.button_products h2, .button_products a {
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: #006636;
+  border-bottom: 0.25em solid #004d29;
+  /*-webkit-text-shadow: 0px 2px 3px #000;
+  -moz-text-shadow: 0px 2px 3px #000;
+  text-shadow: 0px 2px 3px #000;*/ }
+.button_products h2 {
+  margin: 0;
+  padding: 0.25em;
+  text-transform: uppercase; }
+
+a.tag {
+  color: inherit;
+  text-decoration: underline;
+  display: inline-block; }
