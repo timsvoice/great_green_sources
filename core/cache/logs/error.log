@@ -1,0 +1,55 @@
+[2013-11-17 07:12:54] (ERROR @ /great_green_sources/connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 07:12:54] (ERROR @ /great_green_sources/connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 07:12:54] (ERROR @ /great_green_sources/connectors/workspace/packages.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 07:12:54] (ERROR @ /Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 48) PHP warning: Invalid argument supplied for foreach()
+[2013-11-17 07:12:54] (ERROR @ /Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 48) PHP warning: Invalid argument supplied for foreach()
+[2013-11-17 07:12:55] (ERROR @ /great_green_sources/connectors/workspace/packages.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 07:12:55] (ERROR @ /great_green_sources/connectors/workspace/packages.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 07:21:44] (ERROR @ /great_green_sources/connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 07:21:44] (ERROR @ /Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 48) PHP warning: Invalid argument supplied for foreach()
+[2013-11-17 07:21:44] (ERROR @ /great_green_sources/connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 07:21:44] (ERROR @ /Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/core/model/modx/processors/workspace/packages/rest/getlist.class.php : 48) PHP warning: Invalid argument supplied for foreach()
+[2013-11-17 07:21:54] (ERROR @ /great_green_sources/connectors/workspace/packages.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 07:21:54] (ERROR @ /great_green_sources/connectors/workspace/packages.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 07:21:54] (ERROR @ /great_green_sources/connectors/workspace/packages.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2013-11-17 08:30:03] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:30:03] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:30:44] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:30:44] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:31:52] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:31:53] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:35:10] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:35:10] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:36:50] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:36:50] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:36:50] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:36:50] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:37:06] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:37:06] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:37:24] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 08:37:24] (ERROR @ /great_green_sources/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-11-17 12:39:31] (ERROR @ /great_green_sources/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC DESC' at line 1
+)
+
+[2013-11-17 12:41:29] (ERROR @ /great_green_sources/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[[+pagetitle]] ASC' at line 1
+)
+
+[2013-11-17 12:41:37] (ERROR @ /great_green_sources/index.php) Error 42S22 executing statement: 
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'Vendors' in 'order clause'
+)
+
+[2013-11-17 19:17:42] (ERROR @ /great_green_sources/index.php) Could not retrieve data to cache for resource 25

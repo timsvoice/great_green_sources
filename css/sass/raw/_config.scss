@@ -1,10 +1,11 @@
 //config
 
-$colorA:hsla(152,100%,20%,1);
-$colorB:hsla(0,0%,0%,1);
-$colorC:hsla(100,100%,100%,1);
-$colorD:hsla(152,100%,15%,1);
-$colorE:hsla(152,100%,20%,0.4);
+$green:hsla(152,100%,20%,1);
+$black:hsla(0,0%,0%,1);
+$gray:hsla(0, 0%, 85%, 1);
+$white:hsla(100,100%,100%,1);
+$darkGreen:hsla(152,100%,15%,1);
+$transparentGreen:hsla(152,100%,20%,0.4);
 
 $font_family:'Open Sans', sans-serif;
 $background: url('../../assets/images/background.png') repeat;

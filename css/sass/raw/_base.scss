@@ -21,6 +21,10 @@ body {
   background:$background;
 }
 
+img {
+    width: 100%;
+    height: auto; }
+
 .container {
   height: auto !important;
   min-height: 100%;
@@ -47,10 +51,10 @@ li {
 }
 
 ::selection {
-  background: $colorE; /* Safari */
+  background: $transparentGreen; /* Safari */
   }
 ::-moz-selection {
-  background: $colorE; /* Firefox */
+  background: $transparentGreen; /* Firefox */
 }
 
 //background
@@ -328,8 +332,8 @@ body {
 }
 
 @mixin small {
-  /* 13px / 18px */
-  font-size: #{($font-size*0.8125) / $em}em;
+  /* 12px / 18px */
+  font-size: #{($font-size*0.75) / $em}em;
   line-height: ($line*0.75) / ($font-size*0.8125) * 1em;
 }
 @mixin normal {
