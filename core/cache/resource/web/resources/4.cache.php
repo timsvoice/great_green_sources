@@ -5,8 +5,8 @@
     'id' => 4,
     'type' => 'document',
     'contentType' => 'text/html',
-    'pagetitle' => 'Products',
-    'longtitle' => 'Products',
+    'pagetitle' => 'Plants',
+    'longtitle' => 'Plants',
     'description' => 'A list of the products sold by Great Green Sources Vendor Partners',
     'alias' => '',
     'link_attributes' => '',
@@ -20,7 +20,7 @@
         <header>
             <h2 class="tagline">growing great relationships</h2>
         </header>
-        <header class="page_title"><h2>products</h2></header>
+        <header class="page_title"><h2>[[*pagetitle]]</h2></header>
         <p>
           I have spent 20 years refining my list of vendors, sticking with those who are the absolute best at what they grow. Below are their plants abd products.
         </p>
@@ -57,7 +57,7 @@
     'createdby' => 1,
     'createdon' => 1384405956,
     'editedby' => 1,
-    'editedon' => 1384740982,
+    'editedon' => 1385560893,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -91,7 +91,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>MODX Revolution - Products</title>
+    <title>MODX Revolution - Plants</title>
     <base href="[[+site_url]]" />
     <meta name="description" content="">
     <meta name="author" content="">
@@ -130,7 +130,7 @@
 <nav id="main_nav" class="sixteen columns alpha omega">
                 
 <ul id="main_nav_menu">
-<li class="main_nav_item"><a href="index.php?id=4"><h2>products</h2></a></li>
+<li class="main_nav_item"><a href="index.php?id=4"><h2>plants</h2></a></li>
 <li class="main_nav_item"><a href="index.php?id=5"><h2>vendors</h2></a></li>
 <li class="main_nav_branding"><a href="index.php?id=1"><img class="branding" src="css/assets/images/branding.png"></a></li>
 <li class="main_nav_item"><a href="index.php?id=3"><h2>services</h2></a></li>
@@ -144,7 +144,7 @@
         <header>
             <h2 class="tagline">growing great relationships</h2>
         </header>
-        <header class="page_title"><h2>products</h2></header>
+        <header class="page_title"><h2>Plants</h2></header>
         <p>
           I have spent 20 years refining my list of vendors, sticking with those who are the absolute best at what they grow. Below are their plants abd products.
         </p>
@@ -173,9 +173,9 @@
 &prepareTVs=`1` ]]
         
 </section><!--products-->
-<footer class="twelve columns alpha omega offset-by-two">
+<footer class="sixteen columns alpha omega">
         
-        <article id="about_info" class="six columns alpha omega">
+        <article id="about_info" class="eight columns alpha ">
             <header>
                 <h3>about us</h3>
             </header>
@@ -192,16 +192,8 @@
             </nav>
         </article><!--about_info-->
         
-        <article id="about_newsletter">
-            <h3>subscribe to our newsletter</h3>
 
-            <form action="index.html" method="post" class="newsletter_form">
-                <input id="newsletter_form_email" type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
-                <button type="submit" class="newsletter_submit">Subscribe</button>
-            </form>
-        </article>
-
-        <article id="about_products" class="six columns alpha omega">
+        <article id="about_products" class="eight columns alpha omega">
             <nav id="footer_nav">
                 <ul id="footer_nav_list">
                     <li><a href="index.php?id=5">vendors</a></li>
@@ -233,11 +225,11 @@
   ),
   'elementCache' => 
   array (
-    '[[*pagetitle]]' => 'Products',
+    '[[*pagetitle]]' => 'Plants',
     '[[$head]]' => '<head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>MODX Revolution - Products</title>
+    <title>MODX Revolution - Plants</title>
     <base href="[[+site_url]]" />
     <meta name="description" content="">
     <meta name="author" content="">
@@ -277,7 +269,7 @@
 <nav id="main_nav" class="sixteen columns alpha omega">
                 
 <ul id="main_nav_menu">
-<li class="main_nav_item"><a href="index.php?id=4"><h2>products</h2></a></li>
+<li class="main_nav_item"><a href="index.php?id=4"><h2>plants</h2></a></li>
 <li class="main_nav_item"><a href="index.php?id=5"><h2>vendors</h2></a></li>
 <li class="main_nav_branding"><a href="index.php?id=1"><img class="branding" src="css/assets/images/branding.png"></a></li>
 <li class="main_nav_item"><a href="index.php?id=3"><h2>services</h2></a></li>
@@ -287,9 +279,9 @@
 </nav><!--main_nav-->  
 </section>
 <br class="clear">',
-    '[[$footer]]' => '<footer class="twelve columns alpha omega offset-by-two">
+    '[[$footer]]' => '<footer class="sixteen columns alpha omega">
         
-        <article id="about_info" class="six columns alpha omega">
+        <article id="about_info" class="eight columns alpha ">
             <header>
                 <h3>about us</h3>
             </header>
@@ -306,16 +298,8 @@
             </nav>
         </article><!--about_info-->
         
-        <article id="about_newsletter">
-            <h3>subscribe to our newsletter</h3>
 
-            <form action="index.html" method="post" class="newsletter_form">
-                <input id="newsletter_form_email" type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
-                <button type="submit" class="newsletter_submit">Subscribe</button>
-            </form>
-        </article>
-
-        <article id="about_products" class="six columns alpha omega">
+        <article id="about_products" class="eight columns alpha omega">
             <nav id="footer_nav">
                 <ul id="footer_nav_list">
                     <li><a href="index.php?id=5">vendors</a></li>
@@ -326,6 +310,12 @@
         </article><!--about_products-->
 
     </footer>',
+    '[[~27]]' => 'index.php?id=27',
+    '[[~24]]' => 'index.php?id=24',
+    '[[~26]]' => 'index.php?id=26',
+    '[[~23]]' => 'index.php?id=23',
+    '[[~25]]' => 'index.php?id=25',
+    '[[~28]]' => 'index.php?id=28',
   ),
   'sourceCache' => 
   array (
@@ -449,7 +439,7 @@
 <nav id="main_nav" class="sixteen columns alpha omega">
                 
 <ul id="main_nav_menu">
-<li class="main_nav_item"><a href="[[~4]]"><h2>products</h2></a></li>
+<li class="main_nav_item"><a href="[[~4]]"><h2>plants</h2></a></li>
 <li class="main_nav_item"><a href="[[~5]]"><h2>vendors</h2></a></li>
 <li class="main_nav_branding"><a href="[[~1]]"><img class="branding" src="css/assets/images/branding.png"></a></li>
 <li class="main_nav_item"><a href="[[~3]]"><h2>services</h2></a></li>
@@ -469,7 +459,7 @@
 <nav id="main_nav" class="sixteen columns alpha omega">
                 
 <ul id="main_nav_menu">
-<li class="main_nav_item"><a href="[[~4]]"><h2>products</h2></a></li>
+<li class="main_nav_item"><a href="[[~4]]"><h2>plants</h2></a></li>
 <li class="main_nav_item"><a href="[[~5]]"><h2>vendors</h2></a></li>
 <li class="main_nav_branding"><a href="[[~1]]"><img class="branding" src="css/assets/images/branding.png"></a></li>
 <li class="main_nav_item"><a href="[[~3]]"><h2>services</h2></a></li>
@@ -507,9 +497,9 @@
           'editor_type' => 0,
           'category' => 0,
           'cache_type' => 0,
-          'snippet' => '<footer class="twelve columns alpha omega offset-by-two">
+          'snippet' => '<footer class="sixteen columns alpha omega">
         
-        <article id="about_info" class="six columns alpha omega">
+        <article id="about_info" class="eight columns alpha ">
             <header>
                 <h3>about us</h3>
             </header>
@@ -526,16 +516,8 @@
             </nav>
         </article><!--about_info-->
         
-        <article id="about_newsletter">
-            <h3>subscribe to our newsletter</h3>
 
-            <form action="index.html" method="post" class="newsletter_form">
-                <input id="newsletter_form_email" type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
-                <button type="submit" class="newsletter_submit">Subscribe</button>
-            </form>
-        </article>
-
-        <article id="about_products" class="six columns alpha omega">
+        <article id="about_products" class="eight columns alpha omega">
             <nav id="footer_nav">
                 <ul id="footer_nav_list">
                     <li><a href="[[~5]]">vendors</a></li>
@@ -552,9 +534,9 @@
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '<footer class="twelve columns alpha omega offset-by-two">
+          'content' => '<footer class="sixteen columns alpha omega">
         
-        <article id="about_info" class="six columns alpha omega">
+        <article id="about_info" class="eight columns alpha ">
             <header>
                 <h3>about us</h3>
             </header>
@@ -571,16 +553,8 @@
             </nav>
         </article><!--about_info-->
         
-        <article id="about_newsletter">
-            <h3>subscribe to our newsletter</h3>
 
-            <form action="index.html" method="post" class="newsletter_form">
-                <input id="newsletter_form_email" type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
-                <button type="submit" class="newsletter_submit">Subscribe</button>
-            </form>
-        </article>
-
-        <article id="about_products" class="six columns alpha omega">
+        <article id="about_products" class="eight columns alpha omega">
             <nav id="footer_nav">
                 <ul id="footer_nav_list">
                     <li><a href="[[~5]]">vendors</a></li>

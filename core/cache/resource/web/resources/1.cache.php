@@ -61,10 +61,6 @@
             </li>	
         </ul><!--button_nav-->
 
-		<form id="search_form" class="sixteen columns omega">
-            <input id="search_main" class="ten columns alpha omega" type="search" name="search" placeholder="search">
-            <button id="search_main_submit" class="two columns alpha omega" type="submit"><i class="icon-search"></i></button>
-        </form><!--search_form-->
     
     </section><!--finder-->',
     'richtext' => 1,
@@ -75,7 +71,7 @@
     'createdby' => 1,
     'createdon' => 1384404119,
     'editedby' => 1,
-    'editedon' => 1384728929,
+    'editedon' => 1385506598,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -148,7 +144,7 @@
 <nav id="main_nav" class="sixteen columns alpha omega">
                 
 <ul id="main_nav_menu">
-<li class="main_nav_item"><a href="index.php?id=4"><h2>products</h2></a></li>
+<li class="main_nav_item"><a href="index.php?id=4"><h2>plants</h2></a></li>
 <li class="main_nav_item"><a href="index.php?id=5"><h2>vendors</h2></a></li>
 <li class="main_nav_branding"><a href="index.php?id=1"><img class="branding" src="css/assets/images/branding.png"></a></li>
 <li class="main_nav_item"><a href="index.php?id=3"><h2>services</h2></a></li>
@@ -203,15 +199,11 @@
             </li>	
         </ul><!--button_nav-->
 
-		<form id="search_form" class="sixteen columns omega">
-            <input id="search_main" class="ten columns alpha omega" type="search" name="search" placeholder="search">
-            <button id="search_main_submit" class="two columns alpha omega" type="submit"><i class="icon-search"></i></button>
-        </form><!--search_form-->
     
     </section><!--finder-->
-<footer class="twelve columns alpha omega offset-by-two">
+<footer class="sixteen columns alpha omega">
         
-        <article id="about_info" class="six columns alpha omega">
+        <article id="about_info" class="eight columns alpha ">
             <header>
                 <h3>about us</h3>
             </header>
@@ -228,16 +220,8 @@
             </nav>
         </article><!--about_info-->
         
-        <article id="about_newsletter">
-            <h3>subscribe to our newsletter</h3>
 
-            <form action="index.html" method="post" class="newsletter_form">
-                <input id="newsletter_form_email" type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
-                <button type="submit" class="newsletter_submit">Subscribe</button>
-            </form>
-        </article>
-
-        <article id="about_products" class="six columns alpha omega">
+        <article id="about_products" class="eight columns alpha omega">
             <nav id="footer_nav">
                 <ul id="footer_nav_list">
                     <li><a href="index.php?id=5">vendors</a></li>
@@ -313,7 +297,7 @@
 <nav id="main_nav" class="sixteen columns alpha omega">
                 
 <ul id="main_nav_menu">
-<li class="main_nav_item"><a href="index.php?id=4"><h2>products</h2></a></li>
+<li class="main_nav_item"><a href="index.php?id=4"><h2>plants</h2></a></li>
 <li class="main_nav_item"><a href="index.php?id=5"><h2>vendors</h2></a></li>
 <li class="main_nav_branding"><a href="index.php?id=1"><img class="branding" src="css/assets/images/branding.png"></a></li>
 <li class="main_nav_item"><a href="index.php?id=3"><h2>services</h2></a></li>
@@ -323,9 +307,9 @@
 </nav><!--main_nav-->  
 </section>
 <br class="clear">',
-    '[[$footer]]' => '<footer class="twelve columns alpha omega offset-by-two">
+    '[[$footer]]' => '<footer class="sixteen columns alpha omega">
         
-        <article id="about_info" class="six columns alpha omega">
+        <article id="about_info" class="eight columns alpha ">
             <header>
                 <h3>about us</h3>
             </header>
@@ -342,16 +326,8 @@
             </nav>
         </article><!--about_info-->
         
-        <article id="about_newsletter">
-            <h3>subscribe to our newsletter</h3>
 
-            <form action="index.html" method="post" class="newsletter_form">
-                <input id="newsletter_form_email" type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
-                <button type="submit" class="newsletter_submit">Subscribe</button>
-            </form>
-        </article>
-
-        <article id="about_products" class="six columns alpha omega">
+        <article id="about_products" class="eight columns alpha omega">
             <nav id="footer_nav">
                 <ul id="footer_nav_list">
                     <li><a href="index.php?id=5">vendors</a></li>
@@ -485,7 +461,7 @@
 <nav id="main_nav" class="sixteen columns alpha omega">
                 
 <ul id="main_nav_menu">
-<li class="main_nav_item"><a href="[[~4]]"><h2>products</h2></a></li>
+<li class="main_nav_item"><a href="[[~4]]"><h2>plants</h2></a></li>
 <li class="main_nav_item"><a href="[[~5]]"><h2>vendors</h2></a></li>
 <li class="main_nav_branding"><a href="[[~1]]"><img class="branding" src="css/assets/images/branding.png"></a></li>
 <li class="main_nav_item"><a href="[[~3]]"><h2>services</h2></a></li>
@@ -505,7 +481,7 @@
 <nav id="main_nav" class="sixteen columns alpha omega">
                 
 <ul id="main_nav_menu">
-<li class="main_nav_item"><a href="[[~4]]"><h2>products</h2></a></li>
+<li class="main_nav_item"><a href="[[~4]]"><h2>plants</h2></a></li>
 <li class="main_nav_item"><a href="[[~5]]"><h2>vendors</h2></a></li>
 <li class="main_nav_branding"><a href="[[~1]]"><img class="branding" src="css/assets/images/branding.png"></a></li>
 <li class="main_nav_item"><a href="[[~3]]"><h2>services</h2></a></li>
@@ -543,9 +519,9 @@
           'editor_type' => 0,
           'category' => 0,
           'cache_type' => 0,
-          'snippet' => '<footer class="twelve columns alpha omega offset-by-two">
+          'snippet' => '<footer class="sixteen columns alpha omega">
         
-        <article id="about_info" class="six columns alpha omega">
+        <article id="about_info" class="eight columns alpha ">
             <header>
                 <h3>about us</h3>
             </header>
@@ -562,16 +538,8 @@
             </nav>
         </article><!--about_info-->
         
-        <article id="about_newsletter">
-            <h3>subscribe to our newsletter</h3>
 
-            <form action="index.html" method="post" class="newsletter_form">
-                <input id="newsletter_form_email" type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
-                <button type="submit" class="newsletter_submit">Subscribe</button>
-            </form>
-        </article>
-
-        <article id="about_products" class="six columns alpha omega">
+        <article id="about_products" class="eight columns alpha omega">
             <nav id="footer_nav">
                 <ul id="footer_nav_list">
                     <li><a href="[[~5]]">vendors</a></li>
@@ -588,9 +556,9 @@
           ),
           'static' => false,
           'static_file' => '',
-          'content' => '<footer class="twelve columns alpha omega offset-by-two">
+          'content' => '<footer class="sixteen columns alpha omega">
         
-        <article id="about_info" class="six columns alpha omega">
+        <article id="about_info" class="eight columns alpha ">
             <header>
                 <h3>about us</h3>
             </header>
@@ -607,16 +575,8 @@
             </nav>
         </article><!--about_info-->
         
-        <article id="about_newsletter">
-            <h3>subscribe to our newsletter</h3>
 
-            <form action="index.html" method="post" class="newsletter_form">
-                <input id="newsletter_form_email" type="email" name="email" class="newsletter_input" placeholder="you@mail.com" >
-                <button type="submit" class="newsletter_submit">Subscribe</button>
-            </form>
-        </article>
-
-        <article id="about_products" class="six columns alpha omega">
+        <article id="about_products" class="eight columns alpha omega">
             <nav id="footer_nav">
                 <ul id="footer_nav_list">
                     <li><a href="[[~5]]">vendors</a></li>
