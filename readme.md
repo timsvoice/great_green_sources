@@ -1,6 +1,6 @@
 # great green sources
 
-#### url: www.greatgreensources.com
+#### url: www.timothyvoice.com/great_green_sources
 
 ## Author
 Timothy Voice
