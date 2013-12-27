@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.4, created on 2013-11-15 07:58:16
+<?php /* Smarty version Smarty-3.0.4, created on 2013-12-27 14:16:29
          compiled from "/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/manager/templates/default/security/login.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1257007351528644981f59d3-85955890%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:161858678052bdfc3d4f5fc4-17501696%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '32e0a5c6ce35473de7ac95e9df3aa2a762f8efeb' => 
     array (
       0 => '/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/manager/templates/default/security/login.tpl',
-      1 => 1381175632,
+      1 => 1388182578,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1257007351528644981f59d3-85955890',
+  'nocache_hash' => '161858678052bdfc3d4f5fc4-17501696',
   'function' => 
   array (
   ),
