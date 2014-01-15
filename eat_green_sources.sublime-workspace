@@ -259,7 +259,23 @@
 			"file": "wp-content/themes/greatgreensources/scss/style.scss",
 			"settings":
 			{
-				"buffer_size": 5484,
+				"buffer_size": 6139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/greatgreensources/vendor.php",
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/greatgreensources/page-about.php",
+			"settings":
+			{
+				"buffer_size": 639,
 				"line_ending": "Unix"
 			}
 		},
@@ -267,7 +283,39 @@
 			"file": "wp-content/themes/greatgreensources/index.php",
 			"settings":
 			{
-				"buffer_size": 2542,
+				"buffer_size": 2730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/index.php",
+			"settings":
+			{
+				"buffer_size": 1024,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/greatgreensources/header.php",
+			"settings":
+			{
+				"buffer_size": 4987,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/greatgreensources/footer.php",
+			"settings":
+			{
+				"buffer_size": 1855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/css/ionicons.css",
+			"settings":
+			{
+				"buffer_size": 22486,
 				"line_ending": "Unix"
 			}
 		}
@@ -275,9 +323,25 @@
 	"build_system": "Packages/User/Choose Browser.sublime-build",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 335.0,
 		"selected_items":
 		[
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: post"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -285,18 +349,6 @@
 			[
 				"mou",
 				"Markdown: Open with Mou.app"
-			],
-			[
-				"mark",
-				"Set Syntax: Markdown"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
-				"task",
-				"Tasks: New document"
 			],
 			[
 				"FindKeyConflicts: All Key Maps to Quick Panel",
@@ -348,10 +400,6 @@
 			],
 			[
 				"snipp",
-				"Snippet: html"
-			],
-			[
-				"Snippet: ",
 				"Snippet: html"
 			],
 			[
@@ -551,7 +599,7 @@
 				"Set Syntax: Groovy"
 			]
 		],
-		"width": 583.0
+		"width": 475.0
 	},
 	"console":
 	{
@@ -568,14 +616,23 @@
 	},
 	"file_history":
 	[
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/Octave Living Room.TODO",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Prefixr/readme.creole",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/PlainTasks/Readme.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/index.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/footer.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/header.php",
 		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/community/reports/140103_Retail Newsletter.mdown",
-		"/Users/timsvoice/Desktop/# Agenda",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/design/140106_Design as an Exercise in Empathy",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/140108_Thinking Inside the Box",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/.gitignore",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/post.sublime-snippet",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/index.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/style.css",
+		"/Users/timsvoice/Desktop/# Agenda",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/css/ionicons.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/index.html",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/header.php",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/index.php",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/wordpress-foundation/style.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/wordpress-foundation/scss/style.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/wordpress-foundation/.gitignore",
@@ -583,9 +640,7 @@
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sandbox/wordpress-foundation/config.rb",
 		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/PlainTasks/sublime-fixes.TODO",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/scss/style.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/style.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/css/app.css",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/footer.php",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-config.php",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/wp-content/themes/greatgreensources/css/style.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/config/env/local.php",
@@ -649,7 +704,6 @@
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131204_issue#2_community focused restaurants",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131204_issue#2_community focused restaurants.html",
 		"/Volumes/Projects/8888-Octave New York/Research/Image Library/Stone Barns/131121_farmersBarn.png",
-		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/post.sublime-snippet",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_issue #2-destination restaurants.html",
 		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/image.sublime-snippet",
 		"/Users/timsvoice/Desktop/index.html",
@@ -689,13 +743,7 @@
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/typography.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_reset.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_states.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/style.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/vendors.html",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/products.html",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/products_plants.html",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_base.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_module.scss",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/index.html"
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/style.scss"
 	],
 	"find":
 	{
@@ -716,6 +764,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tagline",
+			"tagline-d",
+			"typ",
+			"20",
+			"20%",
+			"branding-tagline",
+			"branding-tagline-dark",
+			"tagline",
+			"0.65",
+			"0.75",
+			"tagline",
+			"border-top",
+			"banner",
+			"main",
+			"branding",
+			"-\">",
+			"navig",
+			"<li class=\"divider\"></li>",
+			"navigation",
+			"naviga",
+			"UI",
+			"global",
+			"UI",
+			"features",
+			"naviga",
+			"typogr",
 			"content",
 			"brand",
 			"#",
@@ -817,33 +891,7 @@
 			"1.3",
 			"p",
 			"h5",
-			"$text-font-family",
-			"$body-font-family",
-			"panel article",
-			"panel",
-			"intro",
-			"45",
-			"h1",
-			"$heavy",
-			"900",
-			"bold",
-			"orbit",
-			"background",
-			"navi",
-			"navig",
-			"n",
-			"nav",
-			"navi",
-			"a></li>",
-			"></li>",
-			"<img src=",
-			"data-orbit-slide",
-			"h4",
-			"width",
-			"orbit",
-			"active",
-			"$topbar-link-bg-hover: #272727  ;",
-			"<li>"
+			"$text-font-family"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -863,7 +911,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -871,15 +919,15 @@
 					"file": "wp-content/themes/greatgreensources/scss/style.scss",
 					"settings":
 					{
-						"buffer_size": 5484,
+						"buffer_size": 6139,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								285,
-								285
+								1385,
+								1334
 							]
 						],
 						"settings":
@@ -977,25 +1025,609 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1065.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "wp-content/themes/greatgreensources/index.php",
+					"file": "wp-content/themes/greatgreensources/vendor.php",
 					"settings":
 					{
-						"buffer_size": 2542,
+						"buffer_size": 98,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								668,
-								668
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/greatgreensources/page-about.php",
+					"settings":
+					{
+						"buffer_size": 639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/greatgreensources/index.php",
+					"settings":
+					{
+						"buffer_size": 2730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 190.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/index.php",
+					"settings":
+					{
+						"buffer_size": 1024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wp-content/themes/greatgreensources/header.php",
+					"settings":
+					{
+						"buffer_size": 4987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3232,
+								3367
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 608.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wp-content/themes/greatgreensources/footer.php",
+					"settings":
+					{
+						"buffer_size": 1855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								852,
+								1836
 							]
 						],
 						"settings":
@@ -1098,6 +1730,122 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Applications/mampstack-5.3.17-0/apache2/htdocs/octave_living_room/wp-content/themes/octavelivingroom/css/ionicons.css",
+					"settings":
+					{
+						"buffer_size": 22486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -1148,12 +1896,24 @@
 		"selected_items":
 		[
 			[
-				"index",
-				"index.php"
+				"foot",
+				"wp-content/themes/greatgreensources/footer.php"
 			],
 			[
 				"header",
-				"wp-includes/theme-compat/header.php"
+				"wp-content/themes/greatgreensources/header.php"
+			],
+			[
+				"index",
+				"wp-content/themes/greatgreensources/index.php"
+			],
+			[
+				"scss",
+				"wp-content/themes/greatgreensources/style.css"
+			],
+			[
+				"inde",
+				"index.php"
 			],
 			[
 				"style",
@@ -1166,10 +1926,6 @@
 			[
 				"button",
 				"living_octave_research/bower_components/foundation/scss/foundation/components/_buttons.scss"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"app",
@@ -1214,10 +1970,6 @@
 			[
 				"scssstyle",
 				"bower_components/modernizr/test/caniuse_files/style.css"
-			],
-			[
-				"scss",
-				"scss/_settings.scss"
 			],
 			[
 				"",
