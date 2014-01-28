@@ -267,7 +267,7 @@
 			"file": "wp-content/themes/greatgreensources/scss/style.scss",
 			"settings":
 			{
-				"buffer_size": 7882,
+				"buffer_size": 8382,
 				"line_ending": "Unix"
 			}
 		},
@@ -280,10 +280,13 @@
 			}
 		},
 		{
+			"contents": "<?php\n/*\nTemplate Name: About\n*/\n?>\n\n<?php get_header(); ?>\n\n<body>\n \n	<div class=\"row\">\n		<h2 class=\"tagline-dark\">growing great relationships</h2>\n	</div>	\n			<div class=\"row about\">\n\n				<div class=\"small-3 columns show-for-medium-up about-portrait\">\n					<img src=\"<?php bloginfo('template_url'); ?>/assets/images/kris-portrait.png\" title=\"kris portrait\" alt=\"kris portrait\" class=\"left\"/>\n					<p class=\"caption\"><a href=\"#\">Whitney Page photography</a></p>\n				</div>\n				\n				<div class=\"small-12 medium-7 large-7 columns left about-text\">\n					 <?php if (have_posts()) : while (have_posts()) :\n					the_post(); ?>\n					<div class=\"post group\">\n					<?php the_content('Read More...'); ?>\n					</div>\n					<?php endwhile; else: ?>\n					<p><?php _e('No posts were found. Sorry!'); ?></p>\n					<?php endif; ?>\n				</div>\n			</div>\n		\n\n<?php get_footer(); ?>",
 			"file": "wp-content/themes/greatgreensources/page-about.php",
+			"file_size": 846,
+			"file_write_time": 1389752584000000,
 			"settings":
 			{
-				"buffer_size": 846,
+				"buffer_size": 861,
 				"line_ending": "Unix"
 			}
 		},
@@ -307,7 +310,7 @@
 			"file": "wp-content/themes/greatgreensources/index.php",
 			"settings":
 			{
-				"buffer_size": 2731,
+				"buffer_size": 4662,
 				"line_ending": "Unix"
 			}
 		},
@@ -315,7 +318,7 @@
 			"file": "wp-content/themes/greatgreensources/header.php",
 			"settings":
 			{
-				"buffer_size": 4841,
+				"buffer_size": 5352,
 				"line_ending": "Unix"
 			}
 		},
@@ -796,6 +799,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"banner",
+			"contact",
+			"about",
+			"detail",
+			"panel",
+			"ature",
+			"3rem 0",
+			"detail",
+			"18%",
+			"tagli",
+			"about",
+			"content",
 			"right ",
 			"i {",
 			"i",
@@ -911,19 +926,7 @@
 			"issue page",
 			"h7",
 			"issue",
-			"h7",
-			"article",
-			"articl",
-			"featured",
-			"reading",
-			"what",
-			".article",
-			".article h5",
-			".article h5.article-title, .article-category-featured h5.article-title",
-			"current",
-			"articles",
-			"show-for-medium-up",
-			"float"
+			"h7"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -943,7 +946,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -951,15 +954,15 @@
 					"file": "wp-content/themes/greatgreensources/scss/style.scss",
 					"settings":
 					{
-						"buffer_size": 7882,
+						"buffer_size": 8382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4525,
-								4525
+								8381,
+								7162
 							]
 						],
 						"settings":
@@ -1057,7 +1060,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5134.0,
+						"translation.y": 7952.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1183,15 +1186,15 @@
 					"file": "wp-content/themes/greatgreensources/page-about.php",
 					"settings":
 					{
-						"buffer_size": 846,
+						"buffer_size": 861,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								316,
-								316
+								311,
+								311
 							]
 						],
 						"settings":
@@ -1290,7 +1293,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 103.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1307,8 +1310,8 @@
 						"selection":
 						[
 							[
-								35,
-								35
+								554,
+								74
 							]
 						],
 						"settings":
@@ -1532,15 +1535,15 @@
 					"file": "wp-content/themes/greatgreensources/index.php",
 					"settings":
 					{
-						"buffer_size": 2731,
+						"buffer_size": 4662,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1538,
-								1538
+								272,
+								321
 							]
 						],
 						"settings":
@@ -1639,7 +1642,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 159.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1649,15 +1652,15 @@
 					"file": "wp-content/themes/greatgreensources/header.php",
 					"settings":
 					{
-						"buffer_size": 4841,
+						"buffer_size": 5352,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4696,
-								4696
+								5352,
+								5352
 							]
 						],
 						"settings":
@@ -1756,7 +1759,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1358.0,
+						"translation.y": 1646.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -2276,12 +2279,12 @@
 		"selected_items":
 		[
 			[
-				"foot",
-				"wp-content/themes/greatgreensources/footer.php"
-			],
-			[
 				"header",
 				"wp-content/themes/greatgreensources/header.php"
+			],
+			[
+				"foot",
+				"wp-content/themes/greatgreensources/footer.php"
 			],
 			[
 				"index",
@@ -2441,7 +2444,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 224.0,
 	"status_bar_visible": true
 }
